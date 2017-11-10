@@ -5,10 +5,10 @@ date_default_timezone_set("America/New_York");
 function prices_get_cost_and_expl(&$explanation, &$expl_ascii, $school = 'SCHOOL')
 {  
   // prices and dates
-  $EARLY_DATE = 20161218;
+  $EARLY_DATE = 20171218;
   $EARLY_PRICE = 90;
 
-  $NORMAL_DATE = 20170116;
+  $NORMAL_DATE = 20180116;
   $NORMAL_PRICE = 105;
 
   $LATE_PRICE = 120;

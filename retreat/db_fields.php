@@ -40,7 +40,7 @@ $fields = array(
   array("name" => 'class',
 	"desc" => 'Class',
 	"type" => 'select',
-	"extra" => array(" " => '', "2017" => 2017, "2018" => 2018, "2019" => 2019, "2020" => 2020, "Other" => 'other')
+	"extra" => array(" " => '', "2018" => 2018, "2019" => 2019, "2020" => 2020, "2021" => 2021, "Other" => 'other')
     ),
   array("name" => 'school',
 	"desc" => 'School',

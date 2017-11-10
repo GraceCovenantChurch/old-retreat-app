@@ -38,7 +38,7 @@ include_once("../header.php");
 
 ?>
 <form method="post" action="servicesignup_submitted.php" name="retreatForm" onsubmit="return verifyForm();">
-<center style="font-size:18px">Sign up for GCC College Retreat 2017!</center>
+<center style="font-size:18px">Sign up for GCC College Retreat 2018!</center>
 <center style="font-size:12px"> Early bird (12/18) $90; Regular (12/19-1/15) $105; Late price $120</center>
 <p>
 <table width=80% border=0 bgcolor="#2b2b2b" cellspacing=1 cellpadding=4 align="center">
@@ -55,7 +55,7 @@ $field_num = 0;
 <tr bgcolor='#FFFFFF'><td width='150' class='small'>Cell Phone</td><td class='small'><input type='text' name='cphone' size='12' maxlength='14' required>
 
 </td></tr>
-<tr bgcolor='#FFFFFF'><td width='150' class='small'>Class</td><td class='small'><SELECT name='class'><OPTION value=""> </OPTION><OPTION value="2017">2017</OPTION><OPTION value="2018">2018</OPTION><OPTION value="2019">2019</OPTION><OPTION value="2020">2020</OPTION><OPTION value="other">Other</OPTION></SELECT>
+<tr bgcolor='#FFFFFF'><td width='150' class='small'>Class</td><td class='small'><SELECT name='class'><OPTION value=""> </OPTION><OPTION value="2018">2018</OPTION><OPTION value="2019">2019</OPTION><OPTION value="2020">2020</OPTION><OPTION value="2021">2021</OPTION><OPTION value="other">Other</OPTION></SELECT>
   </td></tr>
 <tr bgcolor='#FFFFFF'>
   <td width='150' class='small'>School</td>

@@ -15,9 +15,9 @@ if($fname!=null){
 
 echo "<p>You will receive an email with a new password.</p>";
 
-$mail_subj = "GCC College Retreat 2017 Login Info";
+$mail_subj = "GCC College Retreat 2018 Login Info";
       $headers = <<<EOF
-From: GCC College Retreat 2017 <retreatstaff@gracecovenant.net>
+From: GCC College Retreat 2018 <retreatstaff@gracecovenant.net>
 MIME-Version: 1.0
 Content-type: text/html; charset=iso-8859-1
 

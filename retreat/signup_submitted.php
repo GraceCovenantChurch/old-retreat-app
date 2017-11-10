@@ -62,7 +62,7 @@ include_once("db_connect.php");
   if (!$result) {
     $err = mysql_error();
     if (strncmp($err, "Duplicate entry ", strlen("Duplicate entry "))==0) {
-      echo "<p>Someone has already registered for GCC College Retreat 2017 using this email address ($email).  If you need to change any of your information, please contact <a href='mailto:retreatstaff@gracecovenant.net'>retreatstaff@gracecovenant.net</a>";
+      echo "<p>Someone has already registered for GCC College Retreat 2018 using this email address ($email).  If you need to change any of your information, please contact <a href='mailto:retreatstaff@gracecovenant.net'>retreatstaff@gracecovenant.net</a>";
     } else {
       die("Error adding your info to the database: $err" );
     }
@@ -70,7 +70,7 @@ include_once("db_connect.php");
 
   if (!$err) {
       // SEND EMAIL
-      echo "You have successfully registered for GCC College Retreat 2017!\n";
+      echo "You have successfully registered for GCC College Retreat 2018!\n";
       $sel_qry = "SELECT id FROM Retreat_Participants WHERE email='" .escape_string($email). "'";
       $res = mysql_query($sel_qry);
       $id = -1;
@@ -78,10 +78,10 @@ include_once("db_connect.php");
         list($id) = mysql_fetch_array($res);
       }
   
-      $mail_subj = "Registration for GCC College Retreat 2017";
+      $mail_subj = "Registration for GCC College Retreat 2018";
       $name = $_POST['fname'] .' '. $_POST['lname'];
       $headers = <<<EOF
-From: GCC College Retreat 2017 Registration <retreatstaff@gracecovenant.net>
+From: GCC College Retreat 2018 Registration <retreatstaff@gracecovenant.net>
 MIME-Version: 1.0
 Content-type: text/html; charset=iso-8859-1
 
@@ -114,7 +114,7 @@ EOF;
  <body>
   <p>Dear $name,
 
-  <p>We're glad to hear you'll be attending GCC College Retreat 2017.
+  <p>We're glad to hear you'll be attending GCC College Retreat 2018.
 
   <p>Your total cost was calculated as follows:
 
@@ -146,11 +146,11 @@ EOF;
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_xclick">
         <input type="hidden" name="business" value="paypal@gracecovenant.net">
-        <input type="hidden" name="item_name" value="GCC College Retreat 2017">
+        <input type="hidden" name="item_name" value="GCC College Retreat 2018">
         <input type="hidden" name="amount" value="$price.00">
         <input type="hidden" name="no_shipping" value="1">
         <input type="hidden" name="custom" value="$email">
-        <input type="hidden" name="invoice" value="a2017_$id">
+        <input type="hidden" name="invoice" value="a2018_$id">
         <input type="hidden" name="return" value="http://www.uc.gracecovenant.net/retreat/payment_success.php">
         <input type="hidden" name="cancel_return" value="http://www.uc.gracecovenant.net/retreat/payment_failure.php">
         <input type="hidden" name="no_note" value="1">

@@ -116,7 +116,7 @@ EOF;
 <tr bgcolor='#FFFFFF'><td width='150' class='small'>Cell Phone</td><td class='small'><input type='text' name='cphone' size='12' maxlength='14'>
 
 </td></tr>
-<tr bgcolor='#FFFFFF'><td width='150' class='small'>Class</td><td class='small'><SELECT name='class'><OPTION value=""> </OPTION><OPTION value="2017">2017</OPTION><OPTION value="2018">2018</OPTION><OPTION value="2019">2019</OPTION><OPTION value="2020">2020</OPTION><OPTION value="other">Other</OPTION></SELECT>
+<tr bgcolor='#FFFFFF'><td width='150' class='small'>Class</td><td class='small'><SELECT name='class'><OPTION value=""> </OPTION><OPTION value="2018">2018</OPTION><OPTION value="2019">2019</OPTION><OPTION value="2020">2020</OPTION><OPTION value="2021">2021</OPTION><OPTION value="other">Other</OPTION></SELECT>
   </td></tr>
  <tr bgcolor="#FFFFFF">
   <td colspan="2" align="center"><input name="submit" type="submit" value="Continue"></td>

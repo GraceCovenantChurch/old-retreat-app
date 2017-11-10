@@ -1,5 +1,5 @@
 <?php
-$title = "GCC College Retreat 2017";
+$title = "GCC College Retreat 2018";
 include_once("gcc_header.php");
 echo_tabs();
 
@@ -23,11 +23,11 @@ switch ($id) {
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_xclick">
         <input type="hidden" name="business" value="paypal@gracecovenant.net">
-        <input type="hidden" name="item_name" value="GCC College Retreat 2017">
+        <input type="hidden" name="item_name" value="GCC College Retreat 2018">
         <input type="hidden" name="amount" value="20.00">
         <input type="hidden" name="no_shipping" value="1">
         <input type="hidden" name="custom" value="$email">
-        <input type="hidden" name="invoice" value="a2017_deposit_$id">
+        <input type="hidden" name="invoice" value="a2018_deposit_$id">
         <input type="hidden" name="return" value="http://www.uc.gracecovenant.net/retreat/payment_success.php">
         <input type="hidden" name="cancel_return" value="http://www.uc.gracecovenant.net/retreat/payment_failure.php">
         <input type="hidden" name="no_note" value="1">

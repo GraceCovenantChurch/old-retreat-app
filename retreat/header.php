@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>GCC College Retreat 2017<?php if ($title) { echo ": $title"; } ?></title>
+<title>GCC College Retreat 2018<?php if ($title) { echo ": $title"; } ?></title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <link rel="stylesheet" type="text/css" href="style.css" />
 <link rel="shortcut icon" href="http://uc.gracecovenant.net/images/favicon.ico" type="image/x-icon" />
@@ -27,7 +27,7 @@ $isHome = false;
 </head>
 <body bgcolor="#f2f2f2" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0"<?php if ($body_onload) { echo " onload=\"$body_onload\""; } ?>>
 
-<p style="font-size: 20pt; text-align: center">GCC College Retreat 2017 Registration</p>
+<p style="font-size: 20pt; text-align: center">GCC College Retreat 2018 Registration</p>
 
 <table id="Table_01" width="98%" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#f2f2f2"">
   <tr>

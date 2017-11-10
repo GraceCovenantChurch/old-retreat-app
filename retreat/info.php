@@ -1,5 +1,5 @@
 <?php
-$title = "GCC College Retreat 2017";
+$title = "GCC College Retreat 2018";
 include_once("gcc_header.php");
 echo_tabs();
 ?>
@@ -34,7 +34,7 @@ echo_tabs();
   <li>Please email <span class="email"><a href="mailto:retreatstaff@gracecovenant.net">retreatstaff@gracecovenant.net</a></span> with any questions or concerns regarding the retreat!</li>
 </ul>	  
 
- <!--center><img src="/images/slides/college_retreat_2016.jpg"/></center--><br>
+ <!--center><img src="/images/slides/college_retreat_2017.jpg"/></center--><br>
 
 <?php
 include_once("gcc_footer.php");

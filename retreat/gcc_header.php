@@ -67,5 +67,5 @@ if ($extra_header) { echo $extra_header."\n"; }
 <table id="widemaintable">
   <tr>
     <td valign="top">
-	<h4>COLLEGE RETREAT 2017</h4>
+	<h4>COLLEGE RETREAT 2018</h4>
         <br>

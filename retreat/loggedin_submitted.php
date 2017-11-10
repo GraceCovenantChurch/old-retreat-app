@@ -14,7 +14,7 @@ if (!$result) {
 }
 if (mysql_affected_rows() != 1) {
   $err = "Email address not found: $email\n";
-  $err .= "Please contact retreat2016@gracecovenant.net to tell us what happened.  Thank you!\n";
+  $err .= "Please contact retreat2017@gracecovenant.net to tell us what happened.  Thank you!\n";
 }
 
 if ($err) {
