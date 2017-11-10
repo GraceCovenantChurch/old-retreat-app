@@ -56,8 +56,8 @@ include_once("../db_connect.php");
 
 
     if (!$err) {
-      echo "<center>You have successfully paid $deposit for $email. Financial Aid is supposed to be $deposit! It's just for our information!<br><br>  <a href='servicesignup.php'>Back to signup sheet</a></center>\n";
-    } 
+      echo "<center>You have successfully registered. If you applied for financial aid, you will be contacted shortly. If you haven't yet, please hand the cash to the person that is managing the retreat registration booth. <br><br>  <a href='servicesignup.php'>Back to signup sheet</a></center>\n";
+    }
 
 include_once("../footer.php");
 ?>

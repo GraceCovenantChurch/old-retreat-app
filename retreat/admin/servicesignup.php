@@ -2,6 +2,9 @@
 $title = "Sign Up";
 include_once("../db_fields.php"); // defines $fields
 include_once("db_verify.php");
+include_once("../prices_inc.php")
+$price = prices_get_cost_and_expl($explanation, $expl_ascii, $_POST['school']);
+
 $js .= <<<EOF1
 description = new Array(
 
@@ -77,13 +80,13 @@ $field_num = 0;
     </SELECT>
   </td>
 </tr>
-  <tr bgcolor='#FFFFFF'><td width='150' class='small'>Payment Amount</td><td class='small'> 
-<input type="radio" name="deposit" value=105 checked="true" required> $105 <input type="radio" name ="deposit" value=1> Financial Aid Required
+  <tr bgcolor='#FFFFFF'><td width='150' class='small'>Payment Amount</td><td class='small'>
+<input type="radio" name="deposit" value=105 checked="true" required> $105 <?php $price ?> <input type="radio" name ="deposit" value=1> Financial Aid Required
 </td></tr>
  <tr bgcolor="#FFFFFF">
   <td colspan="2" align="center"><input name="submit" type="submit" value="Submit"></td>
  </tr>
- 
+
 </table>
 	<input type="hidden" name="pass1" value="0">
     <input type="hidden" name="pass2" value="0">
