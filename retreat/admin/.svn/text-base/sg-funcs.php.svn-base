@@ -1,0 +1,50 @@
+<?php
+
+function sg_to_name($sg) {
+$SG_NAMES = array(
+'B01' => 'Americano',
+'B02' => 'Breve',
+'B03' => 'Cappuccino',
+'B04' => 'Chai',
+'B05' => 'Cold Brew',
+'B06' => 'Cortado',
+'B07' => 'Doppio',
+'B08' => 'Earl Grey',
+'B09' => 'Espresso',
+'B10' => 'Latte',
+'B11' => 'Macchiato',
+'B12' => 'Matcha',
+'B13' => 'Misto',
+'B14' => 'Mocha',
+'G01' => 'Affogato',
+'G02' => 'Ambrosia',
+'G03' => 'Biscotti',
+'G04' => 'Cannoli',
+'G05' => 'Cheesecake',
+'G06' => 'Cobbler',
+'G07' => 'Cupcake',
+'G08' => 'Eclair',
+'G09' => 'Gelato',
+'G10' => 'Gingerbread',
+'G11' => 'Macaron',
+'G12' => 'Madeleine',
+'G13' => 'Meringue',
+'G14' => 'Mousse',
+'G15' => 'Parfait',
+'G16' => 'Souffle',
+'G17' => 'Strudel',
+'G18' => 'Tiramisu',
+'G19' => 'Truffle',
+'Band' => 'Band',
+'Intl' => 'Popsicle',
+);
+
+  $name = $SG_NAMES[$sg];
+  if($name) {
+    return $name;
+  } else {
+    return "";
+  }
+}
+
+?>

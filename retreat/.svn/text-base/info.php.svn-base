@@ -1,0 +1,40 @@
+<?php
+$title = "GCC College Retreat 2015";
+include_once("gcc_header.php");
+echo_tabs();
+?>
+
+<ul>
+  <li><b>Date:</b> Fri, Jan 30 - Sun, Feb 1</li>
+  <li><b>Friday Pickup:</b>
+    <ul>
+    <li>Mainline:
+      <ul>
+        <li>Bryn Mawr: 4:45pm at Baldwin School</li>
+        <li>Eastern: 4:20pm at McInnis and HHC Parking Lot</li>
+        <li>Haverford: 4:40pm at South Lot</li>
+        <li>Villanova: 4:30pm at Bartley Hall (Entrance driveway towards Lancaster)</li>
+      </ul>
+    </li>
+      <li>Temple: 4:45pm in front of the Student Center</li>
+      <li>University City: 4:45pm at Meyerson (34th and Walnut)</li>
+    </ul>
+  </li>
+  <!--li><b>Theme:</b> </li-->
+  <li><b>Speaker:</b> Pastor Victor Kim from <a href="http://www.remnantchurch.org/home" target="_blank">TRPC</a></li>
+  <li><b>Pricing:</b> $40 deposit to lock in these prices:
+    <ul>
+      <li>Early Registration: $80 | until Jan 12</li>
+      <li>Regular Registration: $95 | Jan 12 - Jan 26</li>
+      <li>Late Registration: $105 | after Jan 26</li>
+      <li><i>Financial aid is available - please email <span class="email">retreat2015@gracecovenant.net</span></i></li>
+    </ul>
+  </li>
+  <li>Please email <span class="email">retreat2015@gracecovenant.net</span> with any questions or concerns regarding the retreat!</li>
+</ul>	  
+
+ <!--center><img src="/images/slides/college_retreat_2015.jpg"/></center--><br>
+
+<?php
+include_once("gcc_footer.php");
+?>

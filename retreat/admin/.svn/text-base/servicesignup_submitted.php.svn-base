@@ -1,0 +1,63 @@
+<?php
+$title = "Sign Up - Submitted";
+//include_once("db_verify.php");
+include_once("../header.php");
+include_once("../db_fields.php");
+include_once("../db_connect.php");
+
+  // prepare INSERT INTO Retreat_Participants query
+  $field_names = array();
+  $field_values = array();
+  foreach ($fields as $field) {
+    // PASSWORDS
+    if ($field['name'] == 'pass2') {
+      continue;
+    } else if ($field['name'] == 'pass1') {
+      array_push($field_names, 'password');
+      array_push($field_values, "'" .md5($_POST['pass1']). "'");
+      continue;
+    }
+
+    // NORMAL FIELDS
+    array_push($field_names, $field['name']);
+    $field_val = $_POST[$field['name']];
+    if ($field['type'] == 'select_num') {
+      array_push($field_values, $field_val); // numeric selects don't have ticks
+    } else {
+      array_push($field_values, "'" .escape_string($field_val). "'");
+    }
+  }
+  include_once("../prices_inc.php");
+  $explanation = "";
+  $expl_ascii = "";
+  $price = prices_get_cost_and_expl($explanation, $expl_ascii, $_POST['school']);
+
+    $deposit = $_POST['deposit'];
+    array_push($field_names, "deposit");
+    array_push($field_values, $_POST['deposit']);
+
+  array_push($field_names, "price");
+  array_push($field_values, $price);
+
+  $email = escape_string($_POST['email']);
+	    $ins_qry = "INSERT INTO Retreat_Participants(`" .join("`,`",$field_names). "`) ";
+		$ins_qry .= "VALUES(" .join(",",$field_values). ");";
+	    $result = mysql_query($ins_qry);
+
+  $err = false;
+  if (!$result) {
+    $err = mysql_error();
+    if (strncmp($err, "Duplicate entry ", strlen("Duplicate entry "))==0) {
+      echo "<p>Someone has already registered for GCC College Retreat using this email address ($email).  If you need to change any of your information, please contact <font color='blue'>retreat2015@gracecovenant.net</font></p><p><a href='servicesignup.php'>Back to Signup page</a></p>";
+    } else {
+      die("Error adding your info to the database: $err" );
+    }
+  }
+
+
+    if (!$err) {
+      echo "<center>You have successfully updated the deposit amount to $deposit for $email.<br><br>  <a href='servicesignup.php'>Back to signup sheet</a></center>\n";
+    } 
+
+include_once("../footer.php");
+?>

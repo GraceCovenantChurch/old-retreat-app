@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/collegeRetreat/!svn/ver/137/trunk/admin/mailer
+END
+tidyjson.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/collegeRetreat/!svn/ver/31/trunk/admin/mailer/tidyjson.php
+END
+gcc_mailer.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/collegeRetreat/!svn/ver/103/trunk/admin/mailer/gcc_mailer.php
+END
+.htaccess
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/collegeRetreat/!svn/ver/38/trunk/admin/mailer/.htaccess
+END
+gcc_phpmailer.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/collegeRetreat/!svn/ver/137/trunk/admin/mailer/gcc_phpmailer.php
+END
+test.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/collegeRetreat/!svn/ver/137/trunk/admin/mailer/test.php
+END

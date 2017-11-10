@@ -1,0 +1,76 @@
+<HTML>
+<head>
+  <title>Grace Covenant Church - University City, Philadelphia PA</title>
+  <link rel="stylesheet" type="text/css" href="/style.css" />
+  <link rel="shortcut icon" href="http://uc.gracecovenant.net/images/favicon.ico" type="image/x-icon" />
+  <script language="JavaScript" src="/menu.js"></script>
+</head>
+
+<?php include('../../header.html'); ?>
+<?php include('../sidebar.html'); ?>
+<?php include('./vidFuncs.php'); ?>
+
+<table id="widemaintable">
+
+<?php yearLine(2010); ?>
+
+<br>
+
+<p class="vids2">
+     <?php addLink2('http://www.youtube.com/watch?v=Z6kE1hW9e0w', 'Introducing Symphony Church'); ?><br>
+     <?php addLink2('http://www.youtube.com/watch?v=bpqsqvTt1sk', 'Over-The-Rhine Promo Video'); ?>
+</p>
+
+<h4><i>Easter Testimonies</i></h4>
+	<p class="vids">
+		<?php addLink2('http://www.youtube.com/user/GraceCovenantChurch#p/c/6FA189139CBB27C4/0/oxwNnDo_bYw', 'John Bang'); ?><br>
+		<?php addLink2('http://www.youtube.com/user/GraceCovenantChurch#p/c/6FA189139CBB27C4/1/ZJ-32g1zxhc', 'Daniel Hwang'); ?><br>
+		<?php addLink2('http://www.youtube.com/user/GraceCovenantChurch#p/c/6FA189139CBB27C4/2/VoLPIgF1xYU', 'Steve Siu'); ?><br>
+		<?php addLink2('http://www.youtube.com/user/GraceCovenantChurch#p/c/6FA189139CBB27C4/3/gNrh_kv8n2g', 'Franklin Shen'); ?><br>
+		<?php addLink2('http://www.youtube.com/user/GraceCovenantChurch#p/c/6FA189139CBB27C4/4/EAQDbKFUplc', 'Rena Song'); ?><br>
+		<?php addLink2('http://www.youtube.com/user/GraceCovenantChurch#p/c/6FA189139CBB27C4/5/8wqUK3-rUAw', 'Greg Fu'); ?><br>
+		<?php addLink2('http://www.youtube.com/user/GraceCovenantChurch#p/c/6FA189139CBB27C4/6/JfxU040ly2s', 'Sol Kim'); ?><br>
+
+
+	 <?php addLink2('http://www.youtube.com/user/GraceCovenantChurch#p/c/6FA189139CBB27C4/7/0a9kzEpetZ8', 'Easter 2010 Baby Dedication - Simon Peter Lee'); ?></p>
+
+ <h4><i>Grad Night 2010</i></h4>
+	<p class="vids">
+	
+                
+		<?php addLink2('http://www.youtube.com/user/GraceCovenantChurch#p/c/E82371D51FAA4983/0/uI2vYYCuAQo', 'Sophomore Presentation'); ?><br>
+		<?php addLink2('http://www.youtube.com/user/GraceCovenantChurch#p/c/E82371D51FAA4983/1/tgYDMjfNHb0', 'Senior Presentation'); ?>
+	</p>
+      <h4><i>GCC College Retreat 2010: Elevation</i></h4>
+	<p class="vids">
+		<?php addLink2('http://www.youtube.com/watch?v=tawJm6NCCn0&feature=related', 'Promo Video'); ?><br>
+		<?php addLink2('http://www.youtube.com/watch?v=aatNS-L_L58', 'Recap Video'); ?>
+		
+	</p>
+
+      <p class="vids2">
+          <?php addLink2('http://www.youtube.com/watch?v=S9ajLJSiF8s', '2010 Intro Video'); ?><br>
+          <?php addLink2('http://www.youtube.com/watch?v=IfwQj21abS8', 'Mini Olympics Promo Video'); ?>
+      </p>
+
+	
+	<br><br>
+
+
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div align="right">
+	<br>
+	<br>
+	<a href="http://www.apple.com/quicktime/download/standalone.html" target="_blank"><img src="images/qt-title.jpg" width="167" height="36" border="0" alt="Get Quicktime 7 Player"></a>
+	<a href="http://www.microsoft.com/windows/windowsmedia/download/default.asp" target="_blank"><img src="images/wmt-title.jpg" width="150" height="36" border="0" alt="Windows Media Player"></a></div>
+    </td>
+  </tr>
+</table>
+
+<?php include('../../footer.html'); ?>
+
+</HTML>
+

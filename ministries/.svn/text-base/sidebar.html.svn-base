@@ -1,0 +1,9 @@
+   <div width="100%" class="small"><div style="position: relative; right: 2; top: -31; height: 0px; z-index: 1; margin-top: 12px"><h3 class="white" align="right">ministries</h3></div>
+     <p class="sidebarlink"><a href="/ministries/familygroups.php">Family Groups</a></p><br>
+     <p class="sidebarlink"><a href="/ministries/ministryteams.php">Ministry Teams</a></p><br>
+     <!--p class="sidebarlink"><a href="/ministries/missions.php">Missions Teams</a></p><br--> 
+     <p class="sidebarlink"><a href="/ministries/missions/partners.php">World Missions</a></p><br>
+     <!--<p class="sidebarlink"><a href="/ministries/prayerfocus.php">Prayer Focus</a></p><br>-->
+   </div>
+  </td>
+  <td class="border2p" style="border-color: #fed201" width="556">

@@ -1,0 +1,124 @@
+<HTML>
+<head>
+  <title>Grace Covenant Church - University City, Philadelphia PA</title>
+  <link rel="stylesheet" type="text/css" href="/style.css" />
+  <link rel="stylesheet" type="text/css" href="../../../style.css" />
+  <link rel="shortcut icon" href="http://uc.gracecovenant.net/images/favicon.ico" type="image/x-icon" />
+  <script language="JavaScript" src="/menu.js"></script>
+</head>
+
+<?php include('../../../header.html'); ?>
+<?php include('../../sidebar.html'); ?>
+
+<table width="556" height="100%" cellspacing="8">
+  <tr>
+    <td><h4>Testimonies of Christ - Jing Ai</h4>
+	
+          <p align="left"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Hi! 
+              My name is Jing Ai, and I am a sophomore at Penn studying Management 
+              and Technology. Today, I am here because I want to share about how 
+              Jesus came into my life, and I want to declare before all of you 
+              that Jesus Christ is my Savior and my Lord. </font></p>
+            <p align="left"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">I 
+              was born in a nonreligious family in China. Marxist philosophy is 
+              very pervasive in China and I was taught that believing in God was 
+              superstitious, and that everyone should just be self-reliant. I 
+              believed that there was no God, and that people&#8217;s future is 
+              within their own control. <br>
+              <br>
+              However, during my last two years of high school, I started wondering 
+              whether the worldview of China was the right one. After all, I had 
+              never heard views from outside of China. All of the media was under 
+              government control. So, I started thinking about coming to United 
+              States for my education. Although my parents wanted me to stay in 
+              China, when I got the acceptance letter to Penn, they allowed me 
+              to go study in America. </font></p>
+            <p align="left"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">When 
+              I first got here as a freshman, I was very confused. I did not even 
+              know what a quarter or dime was when I was trying to use the laundry 
+              machine. I felt like I was trapped in a maze, but still believed 
+              that I should be self-reliant, just as I was taught in China.</font></p>
+            <p align="left"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">During 
+              the first few weeks, I met some friends who invited me to their 
+              church. I was really bored. I told myself I would never waste hours 
+              like this again. To me, religion was not scientific and could not 
+              be logically proven. I thought to myself, &#8220;Why would I come 
+              all the way to America to waste time on religion?&#8221;</font></p>
+            <p align="left"><font size="2" face="Verdana, Arial, Helvetica, sans-serif"> 
+              First semester came and went without me ever thinking about religion 
+              again. I just didn&#8217;t care. Second semester began and I just 
+              continued with my studies. One night, I was eating dinner by myself 
+              in Hill dining, when two girls came and sat next to me. One thing 
+              led to another and I asked them how they became Christians. They 
+              openly shared their testimonies with me. I thought they were nice 
+              stories, but I didn&#8217;t think that would apply to me. </font></p>
+            <p align="left"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">After 
+              that, I just kept on running into one of them. We shared more meals 
+              together, and when she asked me to come to church with her, I went 
+              because I did not want to hurt her feelings. <br>
+              <br>
+              In the past, I did not even have the patience to listen to stories 
+              about Jesus from other people, but since she was my friend, I listened 
+              to her. She spent a lot of time patiently explaining the basic concepts 
+              of Christianity to me. To make her happy, I just kept going to GCC 
+              with her. Even though I did not believe in it, I began to be more 
+              open towards religion.</font></p>
+            <p align="left"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Seeing 
+              so many people at church made me wonder what attracted everyone 
+              to Jesus Christ. I began to think that maybe religion did have some 
+              merit. I kept on going to church because the messages were good; 
+              especially the ones by the round &#8211; faced pastor.</font></p>
+            <p align="left"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Because 
+              my friend and I live in the same hall this year, we began to meet 
+              once a week to study the Bible together. My friend had explained 
+              to me a lot about sin, and how even the good things we did were 
+              tainted with sin. <br>
+              <br>
+              I began to think about it and examine my personal life. Sometimes 
+              I felt jealousy or had an unforgiving heart, but I did even more 
+              good things. I never thought I was a bad person. </font></p>
+            <p align="left"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">One 
+              Friday large group, we had an extended time of prayer. The sermon 
+              I remember was about how God loves His people, whether they believed 
+              in Him or not. I had thought religion was a way of fooling people 
+              and controlling their minds. But the fact that God still loved me 
+              despite my hatred towards the concept of God touched me so deeply 
+              that I just started crying. <br>
+              <br>
+              Even though neither I, nor my family, nor my friends believed in 
+              Jesus, He still died for our sins. That day, I decided to accept 
+              Jesus Christ into my heart. I was very thankful that I could finally 
+              see that God was my Savior and Lord. </font></p>
+            <p align="left"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Having 
+              accepted Him into my life, I am changed. I don&#8217;t worry about 
+              my future anymore, because I know Jesus is in control. It is easier 
+              for me to forgive others more quickly. I understand that my happiness 
+              is not a result of circumstances, since Jesus is my inner, constant 
+              joy. I am no longer self-reliant, but completely dependent on Jesus. 
+              I feel content and secure in Him</font></p>
+            <p align="left"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Unlike 
+              other religions, Christianity is God coming to men through Jesus 
+              Christ offering them a relationship with himself. Christianity gives 
+              people the possibility of being loved unconditionally. <br>
+              <br>
+              This feeling really amazed me, and my belief that Jesus is a living 
+              God that saved us became stronger. If it were not true, there would 
+              never have been such change in my life. This makes me desire to 
+              hold on to the Cross even more.</font></p>
+            <p align="left"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">I 
+              thank God for really coming into my life, offering me the greatest 
+              gift of eternal life with Him. My family and my friends back home 
+              are still not touched by Christ, but it is my prayer that God would 
+              open their hearts, that they would know Jesus as their Savior and 
+              Lord. <br>
+              <br>
+              Please keep them in your prayers, and pray for me that I would learn 
+              how to pray, and grow deeper in my relationship with Christ. </font></p>
+            <p><font size="1" face="Verdana, Arial, Helvetica, sans-serif"><a href="../testimony.php">Click 
+              here</a> to return to baptism testimonies</font></p>
+</td></tr>
+
+</table>
+<?php include('../../../footer.html'); ?>
+
+</HTML>

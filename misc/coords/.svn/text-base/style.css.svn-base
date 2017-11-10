@@ -1,0 +1,27 @@
+h4 { padding-top: 15px; }
+
+.coords_table
+{
+  width:100%;
+  border-collapse:collapse;
+}
+
+.coords_table td, .coords_table th 
+{
+  border:1px solid #98bf21;
+  padding:3px 7px 2px 7px;
+}
+.coords_table th 
+{
+  text-align:left;
+  padding-top:5px;
+  padding-bottom:4px;
+  background-color:#A7C942;
+  color:#ffffff;
+  font-weight: bold;
+}
+.coords_table tr.alt td 
+{
+  color:#000000;
+  background-color:#EAF2D3;
+}

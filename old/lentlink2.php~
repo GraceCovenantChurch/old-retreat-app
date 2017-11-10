@@ -1,0 +1,35 @@
+<HTML>
+<head>
+  <title>Grace Covenant Church - University City, Philadelphia PA</title>
+  <link rel="stylesheet" type="text/css" href="/style.css" />
+  <link rel="stylesheet" type="text/css" href="./home/style.css" />
+  <script language="JavaScript" src="/menu.js"></script>
+</head>
+
+<?php include('./header.html'); ?>
+<?php include('./sidebar.html'); ?>
+<table width="556" cellspacing="8">
+  <tr>
+    <td valign="top">
+	<p><strong><em>OBSERVING THE LENTEN SEASON</em></strong><br>&nbsp;</p>
+
+        <p><strong>What is it?</strong></p>
+	<p>Lent is the six weeks before Easter (Resurrection Sunday).  This six-week period is called th e  Lent starts on Ash Wednesday, which is 40 days before Easter (Sundays are not included in those 40 days).  But it is worthwhile to include the Sundays as well and make it a full 46 days.</p>
+	<p>There are five things that should occur during this time period.  They are the 5 R's:</p>
+	<p>1) It is a time of <em>REFLECTION</em><blockquote>Lent is a time to refocus and reflect on the suffering, death and resurrection of our Savior, Jesus Christ.</blockquote></p>
+	<p>2) It is a time of <em>REPENTANCE</em><blockquote>In the Lenten season, self-examination is crucial.  As we reflect on the cross, it should expose our pride, our self-sufficiency and our disobedience.</blockquote></p>
+	<p>3) It is a time of <em>READINESS</em><blockquote>Lent is a time to prepare candidates for baptism and confirmation.  This season is intentionally set aside for examination, instruction, repentance and prayer for these candidates.  Also it is a time of readiness for all members as we prepare to observe and celebrate the Passion Week.</blockquote></p>
+	<p>4) It is a time of <em>RESOLUTION</em><blockquote>One key component of Lent is to practice the spiritual discipline of fasting.  It does not necessary have to be food, but anything which clutter our lives or impede us from being in relationship with God that is why it is different for different people.  For some it might be TV, for others it might be shopping.</blockquote></p>
+	<p>5) It is a time of <em>RENEWAL</em><blockquote>Lent is known as a time of spiritual renewal and growth.  It is a time for people to experience and reflect on the sufferings of Jesus, in light of personal sin and unrighteousness.  As we focus on Jesus, who died so that we may live, it will renew our passion and our first love.</blockquote></p>
+
+   	    <p><strong>Addictions</strong><br>
+               <em>February 15, 2008</em></p>
+            <p>Most of us have addictions of some sort, like coffee, TV, shopping or that online game that we can't stop playing.  We might take these addictions frivolously, but they can become very serious, leading to bondage and self-destructive habits.  We can easily become consumed by them, allowing them to drive our decision making and to dictate how we spend our time.  Addictions can leave us feeling helpless and hopeless because of their power over us.  As we discuss this topic, we will learn how we can lay these addictions before God who can free us from the slavery of addiction and live in victory.<br>&nbsp;</p>
+
+	    <p><strong>Duplicity</strong><br>
+	       <em>February 29, 2008</em></p>
+	    <p>We are all social people.  Whether we are extroverted or introverted, we still want to be known and accepted by others.  For all of us though, there is a limit to how much we want people to know about us. There are parts of our lives that we don't want others to know.  It could be a part of our personality, painful things from our past or a sinful side of ourselves that no one has ever seen.  We live fearing that if people really knew who we were inside, they would reject us.  As a result, we lead lives of duplicity where who we are in public is not the same as who we are in private.  In this message, we will find our hope in Jesus Christ who accepts us as we are and wants to free us from living double lives.<br>&nbsp;</p>
+    </td>
+  </tr>
+</table>
+<?php include('./footer.html'); ?>

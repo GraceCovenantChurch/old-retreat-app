@@ -1,0 +1,13 @@
+   
+<div width="100%" class="small"><div style="position: relative; right: 2; top: -31; height: 0px; z-index: 1; margin-top: 12px"><h3 class="white" align="right">fundraiser</h3></div>
+     <p class="sidebarlink"><a href="./index.php">Home</a></p><br>
+     <p class="sidebarlink"><a href="./registration.php">Registration</a></p><br>
+     <p class="sidebarlink"><a href="./payment.php">Payment</a></p><br>
+     <p class="sidebarlink"><a href="./rules.php">Rules</a></p><br>
+     <p class="sidebarlink"><a href="./teams.php">Teams</a></p>
+   </div>
+
+	
+  </td>
+
+  <td class="border2p" style="border-color: #fed201" width="556">

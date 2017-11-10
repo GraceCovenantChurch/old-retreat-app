@@ -1,0 +1,37 @@
+<HTML>
+<head>
+  <title>Grace Covenant Church - University City, Philadelphia PA</title>
+  <link rel="stylesheet" type="text/css" href="/style.css" />
+  <link rel="shortcut icon" href="http://uc.gracecovenant.net/images/favicon.ico" type="image/x-icon" />
+  <script language="JavaScript" src="/menu.js"></script>
+</head>
+
+<?php include('../../header.html'); ?>
+<?php include('../sidebar.html'); ?>
+<?php include('./vidFuncs.php'); ?>
+
+<table id="widemaintable">
+
+<?php yearLine(2012); ?>
+
+<br>
+
+<h4><i>GCC College Retreat 2012: Jesus, Our King</i></h4>
+	<p class="vids">
+		<?php addLink2('https://www.youtube.com/watch?v=czgePHlUMhs', 'Promo Video'); ?><br>
+	</p>
+
+<br><br>
+
+    </td>
+  </tr>
+
+  
+  
+  
+</table>
+
+<?php include('../../footer.html'); ?>
+
+</HTML>
+

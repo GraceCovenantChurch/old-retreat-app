@@ -1,0 +1,14 @@
+<HTML>
+<?php header('Location: ./pictures/pictures2010.php'); ?>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <META HTTP-EQUIV=Refresh CONTENT="0; ./pictures2009.php">
+  <link rel="stylesheet" type="text/css" href="/style.css" />
+  <link rel="stylesheet" type="text/css" href="../style.css" />
+  <script language="JavaScript" src="/menu.js"></script>
+ </head>
+
+<?php include('../header.html'); ?>
+<?php include('/sidebar.html'); ?>
+<?php include('../footer.html'); ?>
+

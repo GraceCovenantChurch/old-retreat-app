@@ -1,0 +1,193 @@
+=================== 2013-01-27, 16:36:01, SUNDAY EMAIL (2013/sun_everybody_again.json) =========================
+------------------- select * from Retreat_Participants where id > 120 and id < 176; ----------------------
+Error sending email to (joannab373@gmail.com)SMTP Error: The following recipients failed: joannab373@gmail.com<p>SMTP server error: 5.7.1 <joannab373@gmail.com>: Recipient address rejected: Policy Rejection- Quota Exceeded. wiki.dreamhost.com/index.php/Smtp-quota
+</p>
+
+=================== 2013-01-27, 16:56:38, SUNDAY EMAIL (2013/sun_everybody_again.json) =========================
+------------------- select * from Retreat_Participants where id > 120 and id < 176; ----------------------
+Error sending email to (joannab373@gmail.com)SMTP Error: The following recipients failed: joannab373@gmail.com<p>SMTP server error: 5.7.1 <joannab373@gmail.com>: Recipient address rejected: Policy Rejection- Quota Exceeded. wiki.dreamhost.com/index.php/Smtp-quota
+</p>
+
+=================== 2013-01-27, 16:59:38, SUNDAY EMAIL (2013/sun_everybody_again.json) =========================
+------------------- select * from Retreat_Participants where id > 120 and id < 176; ----------------------
+Error sending email to (joannab373@gmail.com)SMTP Error: The following recipients failed: joannab373@gmail.com<p>SMTP server error: 5.7.1 <joannab373@gmail.com>: Recipient address rejected: Policy Rejection- Quota Exceeded. wiki.dreamhost.com/index.php/Smtp-quota
+</p>
+
+=================== 2013-01-27, 17:01:01, SUNDAY EMAIL (2013/sun_everybody_again.json) =========================
+------------------- select * from Retreat_Participants where id > 120 and id < 176; ----------------------
+Error sending email to (joannab373@gmail.com)SMTP Error: The following recipients failed: joannab373@gmail.com<p>SMTP server error: 5.7.1 <joannab373@gmail.com>: Recipient address rejected: Policy Rejection- Quota Exceeded. wiki.dreamhost.com/index.php/Smtp-quota
+</p>
+
+=================== 2013-01-27, 17:06:36, TEST EMAIL - KEVIN (2013/test_kevin.json) =========================
+------------------- select * from Retreat_Participants where id in (1); ----------------------
+Successful email to (kevinwsin@gmail.com)
+=================== 2013-01-27, 17:06:54, SUNDAY EMAIL (2013/sun_everybody_again.json) =========================
+------------------- select * from Retreat_Participants where id > 120 and id < 176; ----------------------
+Successful email to (joannab373@gmail.com)
+Successful email to (jihae9@gmail.com)
+Error sending email to (the4thslegacy@gmail.com)The following From address failed: college_retreat_2013@gracecovenant.net : Called Mail() without being connected
+Successful email to (jacklistark@gmail.com)
+Successful email to (aerin824@gmail.com)
+Successful email to (cjb344@drexel.edu)
+Successful email to (loren.kim@temple.edu)
+Successful email to (boreekim@sas.upenn.edu)
+Successful email to (kl582@drexel.edu)
+Successful email to (dk539@drexel.edu)
+Successful email to (tantang888@gmail.com)
+Successful email to (leejs@sas.upenn.edu)
+Successful email to (Luyando333@yahoo.com)
+Successful email to (aniche01@villanova.edu)
+Successful email to (cchung93@gmail.com)
+Successful email to (carolinekmin@gmail.com)
+Successful email to (yiweima@sas.upenn.edu)
+Successful email to (coreaglory@gmail.com)
+Successful email to (linosowusuasare@gmail.com)
+Successful email to (leekevin@wharton.upenn.edu)
+Successful email to (penakano@gmail.com)
+Successful email to (octavia.marie.8@gmail.com)
+Successful email to (tommyp@wharton.upenn.edu)
+Successful email to (stliem@sas.upenn.edu)
+Successful email to (jayjung@seas.upenn.edu)
+Successful email to (jonathantieu@yahoo.com)
+Successful email to (mrkayye@gmail.com)
+Successful email to (azheng@sas.upenn.edu)
+Successful email to (daniel.tgn.bowman@gmail.com)
+Successful email to (mowi@sas.upenn.edu)
+Successful email to (chungcho@whaarton.upenn.edu)
+Successful email to (wiya@sas.upenn.edu)
+Successful email to (justineylee94@gmail.com)
+Successful email to (mespinal@seas.upenn.edu)
+Successful email to (chaom1994@gmail.com)
+Successful email to (thatslovely@gmail.com)
+Successful email to (t.amy11@yahoo.com)
+Successful email to (aranjinheepark@gmail.com)
+Successful email to (sean.d.noh@gmail.com)
+Successful email to (yonghee@sas.upenn.edu)
+Successful email to (ruizs@wharton.upenn.edu)
+Successful email to (paulchungxp@gmail.com)
+Successful email to (kim.jaon79@gmail.com)
+Successful email to (elijahv@sas.upenn.edu)
+Successful email to (xeronamkung@gmail.com)
+Successful email to (estherclark1@yahoo.com)
+Successful email to (mdz28@drexel.edu)
+Successful email to (cljean@wharton.upenn.edu)
+Successful email to (myi23@drexel.edu)
+Successful email to (jylee94@ymail.com)
+Successful email to (aimeeejung@gmail.com)
+Successful email to (christinawu10@gmail.com)
+Successful email to (rachelstar9161@gmail.com)
+Successful email to (hyejunghyejung211@gmail.com)
+Successful email to (michellekwon09@gmail.com)
+=================== 2013-01-27, 17:13:57, TEST SG EMAIL (2013/sgls.json) =========================
+------------------- select * from Retreat_Participants where sgleader=1 and id=142; ----------------------
+=================== 2013-01-27, 17:14:38, TEST SG EMAIL (2013/sgls.json) =========================
+------------------- select * from Retreat_Participants where sgleader=1 and id=14; ----------------------
+Successful email to (ctedijanto@gmail.com)
+=================== 2013-01-27, 17:15:24, SG EMAIL (2013/sgls.json) =========================
+------------------- select * from Retreat_Participants where sgleader=1; ----------------------
+Successful email to (kevinwsin@gmail.com)
+Successful email to (shinhaeng.hur@gmail.com)
+Successful email to (cwang731@gmail.com)
+Successful email to (connieyuan92@gmail.com)
+Successful email to (ciyyuan@gmail.com)
+Successful email to (ashkicourt@gmail.com)
+Successful email to (ctedijanto@gmail.com)
+Successful email to (charmerp89@gmail.com)
+Successful email to (hbchoe@brynmawr.edu)
+Successful email to (choumein@gmail.com)
+Successful email to (alexander.y.chae@gmail.com)
+Successful email to (angelfire7x@gmail.com)
+Successful email to (gjlee@brynmawr.edu)
+Successful email to (alee10@villanova.edu)
+Successful email to (invincentble74@gmail.com)
+Successful email to (jbae91@gmail.com)
+Successful email to (jeff.li.wen@gmail.com)
+Successful email to (jinhalee1992@gmail.com)
+Successful email to (andrewel@sas.upenn.edu)
+Successful email to (cindywei@wharton.upenn.edu)
+Successful email to (hehrhee@gmail.com)
+Successful email to (jabezyeo@gmail.com)
+Successful email to (connie.li.010@gmail.com)
+Successful email to (jihae9@gmail.com)
+Successful email to (the4thslegacy@gmail.com)
+Successful email to (aerin824@gmail.com)
+Successful email to (yiweima@sas.upenn.edu)
+Successful email to (linosowusuasare@gmail.com)
+Successful email to (christinawu10@gmail.com)
+Successful email to (michellekwon09@gmail.com)
+Successful email to (atis.patriick@gmail.com)
+Successful email to (wingli41@gmail.com)
+Successful email to (chrisbaek2@gmail.com)
+=================== 2013-01-27, 17:22:01, SUNDAY EMAIL (2013/sun_everybody_again2.json) =========================
+------------------- select * from Retreat_Participants where id in (73, 194, 123); ----------------------
+Successful email to (jbae91@gmail.com)
+Successful email to (the4thslegacy@gmail.com)
+Successful email to (jonathan.lee@temple.edu)
+=================== 2013-01-27, 17:57:00, SUNDAY EMAIL (2013/sun_9pm.json) =========================
+------------------- select * from Retreat_Participants where id in (151, 177); ----------------------
+Successful email to (chungcho@wharton.upenn.edu)
+Successful email to (atis.patrick@gmail.com)
+=================== 2013-01-27, 17:57:41, SG EMAIL (2013/sgls_patrick.json) =========================
+------------------- select * from Retreat_Participants where sgleader=1 and id=177; ----------------------
+Successful email to (atis.patrick@gmail.com)
+=================== 2013-01-29, 21:13:04, SUNDAY EMAIL (2013/jan30.json) =========================
+------------------- select * from Retreat_Participants where id in (221, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272); ----------------------
+Successful email to (potonchair@gmail.com)
+Successful email to (akim23@villanova.edu)
+Successful email to (kumea.asibon@gmail.com)
+Successful email to (bkim11@villanova.edu)
+Successful email to (thaomai1510@gmail.com)
+Successful email to (pbotsio1@swarthmore.edu)
+Successful email to (mullisc@sas.upenn.edu)
+Successful email to (hanahreum1986@gmail.com)
+Successful email to (dqchung@gmail.com)
+Successful email to (gchung1122@gmail.com)
+Successful email to (karunasathu@yahoo.com)
+=================== 2013-01-31, 10:11:15, SG EMAIL (2013/sgls_justine.json) =========================
+------------------- select * from Retreat_Participants where sgleader=1 and id=51; ----------------------
+Successful email to (ainix3@gmail.com)
+=================== 2014-01-27, 18:48:24, SG EMAIL (2014/sgls_test.json) =========================
+------------------- select * from Retreat_Participants where sgleader=1 and id=1; ----------------------
+Successful email to (kevinwsin@gmail.com)
+=================== 2014-01-27, 18:49:25, SG EMAIL (2014/sgls_test.json) =========================
+------------------- select * from Retreat_Participants where sgleader=1 and id=1; ----------------------
+Successful email to (kevinwsin@gmail.com)
+=================== 2014-01-27, 18:50:56, SG EMAIL (2014/sgls_test.json) =========================
+------------------- select * from Retreat_Participants where sgleader=1 and id=1; ----------------------
+Successful email to (kevinwsin@gmail.com)
+=================== 2014-01-27, 18:52:03, SG EMAIL (2014/sgls.json) =========================
+------------------- select * from Retreat_Participants where sgleader=1; ----------------------
+Successful email to (kevinwsin@gmail.com)
+Successful email to (jackq36@gmail.com)
+Successful email to (k.bballgirl624@gmail.com)
+Successful email to (steph.tjiong@gmail.com)
+Successful email to (liconnie@sas.upenn.edu)
+Successful email to (myi23@drexel.edu)
+Successful email to (alisawismer16@gmail.com)
+Successful email to (kevin.chan@temple.edu)
+Successful email to (andrewel@sas.upenn.edu)
+Successful email to (Taylor.justin.lee@gmail.com)
+Successful email to (novjuo@gmail.com)
+Successful email to (joannab373@gmail.com)
+Successful email to (dkleung92@gmail.com)
+Successful email to (wsung91@gmail.com)
+Successful email to (epark02@brynmawr.edu)
+Successful email to (amtang11@gmail.com)
+Successful email to (missa.zhou@gmail.com)
+Successful email to (hendersony816@gmail.com)
+Successful email to (etheloso@gmail.com)
+Successful email to (jbae91@gmail.com)
+Successful email to (ncol915@gmail.com)
+Successful email to (aerin824@gmail.com)
+Successful email to (wingli41@gmail.com)
+Successful email to (mespinal@sas.upenn.edu)
+Successful email to (jkon@wharton.upenn.edu)
+Successful email to (sueminnlim@gmail.com)
+Successful email to (dtracy198@gmail.com)
+Successful email to (dhm43@drexel.edu)
+Successful email to (rzheng@villanova.edu)
+Successful email to (jabezyeo@gmail.com)
+Successful email to (gelmoss@gmail.com)
+Successful email to (kl582@drexel.edu)
+Successful email to (rachelstar9161@gmail.com)
+Successful email to (bryanrcam@gmail.com)

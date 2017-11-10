@@ -1,0 +1,1 @@
+<p>* PayPal payment cancelled.  Please retry.</p>

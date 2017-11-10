@@ -1,0 +1,4 @@
+AuthType Basic
+AuthUserFile /home/gccweb/uc.gracecovenant.net/misc/coords/.htpasswd
+AuthName "Coords Pages Login"
+require valid-user

@@ -1,0 +1,26 @@
+.tab-nav{
+  padding: 10px 5px 8px 5px;
+  border-bottom:1px solid #CCC;
+}
+.tab-nav a{
+  text-decoration:none;
+  font-size:110%;
+}
+.tab-nav li{
+  display:inline;
+  margin-right:5px;
+  padding:10px;
+}
+.tab-nav .selected{
+  font-weight:bold;
+  border:1px solid #CCC;
+  border-bottom:none;
+  background:#FFF;
+}
+
+.payment, .signup_form
+{
+  border: 1px solid green;
+  padding: 10px;  
+  margin: 10px;
+}

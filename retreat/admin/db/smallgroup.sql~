@@ -1,0 +1,10 @@
+/*
+  Kevin Sin
+  Jan 29, 2012
+  SQL Script for setting Small Groups
+  Run: cat smallgroup.sql | mysql -u gccweb -p
+*/
+
+use gcc;
+
+update Retreat_Participants set sg='T1' where id in (5, 6, 10);

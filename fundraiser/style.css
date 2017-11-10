@@ -1,0 +1,16 @@
+div#rules h1 
+{
+  font-size: 13pt;
+  text-decoration: underline;  
+}
+
+div#rules h2
+{
+  font-size: 11pt;
+}
+
+.grayBorder
+{
+  padding: 10px;
+  border: 1px solid gray;
+}

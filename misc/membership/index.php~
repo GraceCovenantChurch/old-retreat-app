@@ -1,0 +1,115 @@
+<HTML>
+<head>
+  <title>Grace Covenant Church - University City, Philadelphia PA</title>
+  <link rel="stylesheet" type="text/css" href="/style.css" />
+  <link rel="shortcut icon" href="http://uc.gracecovenant.net/images/favicon.ico" type="image/x-icon" />
+  <script language="JavaScript" src="/menu.js"></script>
+</head>
+
+<?php include('../../header.html'); ?>
+<?php include('../../sidebar.html'); ?>
+
+<table id="widemaintable">
+ <tr>
+   <td>
+     <p><b>JOHN BIBLE STUDIES - 2012-2013</b></p>
+     <table cellpadding='10' style='border: 1px solid black'>
+       <tr bgcolor='orange'><th> </th><th>Title</th><th>Passages</th><th>Study</th><th>Comments</th></tr>
+<?php
+$studies = array(
+  array(
+   "no" => "1",
+   "title" => "The Word Becomes Flesh",
+   "passages" => array(
+       "John 1:1-18"
+     ),
+   "study" => "John_1_1-18.doc",
+   "notes" => "John_1_1-18_leaders.doc",
+   "comments" => "Went over 9/8."
+  ),
+  array(
+   "no" => "2",
+   "title" => "The Life of the Party",
+   "passages" => array(
+       "John 2:1-11"
+     ),
+   "study" => "John_2_1-11.doc",
+   "notes" => "John_2_1-11_leaders.doc",
+   "comments" => "Went over 9/15."
+  ),
+  array(
+   "no" => "3",
+   "title" => "Jesus and the Temple of Life",
+   "passages" => array(
+       "John 2:12-25"
+     ),
+   "study" => "John_2_12-25.doc",
+   "notes" => "John_2_12-25_leaders.doc",
+   "comments" => "Went over 9/22."
+  ),
+  array(
+   "no" => "4",
+   "title" => "For God so loved...",
+   "passages" => array(
+       "John 3:1-21"
+     ),
+   "study" => "John_3_1-21.doc",
+   "notes" => "John_3_1-21_leaders.doc",
+   "comments" => "Went over 9/29."
+  ),
+  array(
+   "no" => "5",
+   "title" => "Jesus, the Giver of Living Water",
+   "passages" => array(
+       "John 4:1-42"
+     ),
+   "study" => "John_4_1-42.doc",
+   "notes" => "John_4_1-42_notes.doc",
+   "comments" => "Went over 10/13."
+  ),
+  array(
+   "no" => "6",
+   "title" => "Taking Jesus at His Word",
+   "passages" => array(
+       "John 4:43-54"
+     ),
+   "study" => "John_4_43-54.docx",
+   "notes" => "John_4_43-54_notes.docx",
+   "comments" => "Did not go over together."
+  )
+);
+
+foreach ($studies as $study) {
+  $notesHtml = ($study['notes']) ? "<li><a href='notes/$study[notes]'>Notes</a></li>" : "";
+  $studyHtml = ($study['study']) ? "<li><a href='studies/$study[study]'>UC Study</a></li>" : "";
+  $passagesHtml = "<ul>";
+  foreach ($study['passages'] as $passage) {
+    $passagesHtml .= "<li>$passage</li>";
+  }
+  $passagesHtml .= "</ul>";
+  echo <<<EOF
+  <tr onMouseover="this.bgColor='#ADDFFF'" onMouseout="this.bgColor='#FFFFFF'">
+    <td><b>$study[no]</b></td>
+    <td>$study[title]</td>
+    <td>$passagesHtml</td>
+    <td>
+      $studyHtml
+      $notesHtml
+    </td>
+    <td>$study[comments]</td>
+  </tr>
+EOF;
+}
+
+?>
+
+     </table>
+
+
+   </td>
+ </tr>
+</table>
+<?php include('../../footer.html'); ?>
+
+</HTML>
+

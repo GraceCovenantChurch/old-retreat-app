@@ -1,0 +1,44 @@
+<?php
+$title = "GCC College Retreat 2015";
+include_once("gcc_header.php");
+echo_tabs();
+
+$id = $_GET['id'];
+switch ($id) {
+    case "160":
+        $name =  "Sally Choi";
+        break;
+    case "197":
+        $name = "Lily Huang";
+        break;
+    case "196":
+        $name = "Lois Lee";
+        break;
+    default:
+	die("Not allowed");
+}
+
+        echo <<<EOF
+	<p class='noticeMe'><u>Pay the \$40 deposit for <b>$name</b>:</u></p>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_xclick">
+        <input type="hidden" name="business" value="paypal@gracecovenant.net">
+        <input type="hidden" name="item_name" value="GCC College Retreat 2015">
+        <input type="hidden" name="amount" value="20.00">
+        <input type="hidden" name="no_shipping" value="1">
+        <input type="hidden" name="custom" value="$email">
+        <input type="hidden" name="invoice" value="a2015_deposit_$id">
+        <input type="hidden" name="return" value="http://www.uc.gracecovenant.net/retreat/payment_success.php">
+        <input type="hidden" name="cancel_return" value="http://www.uc.gracecovenant.net/retreat/payment_failure.php">
+        <input type="hidden" name="no_note" value="1">
+        <input type="hidden" name="currency_code" value="USD">
+	<input type="hidden" name="lc" value="US">
+	<input type="hidden" name="bn" value="PP-BuyNowBF">
+        <input type="image" src="images/x-click-but6.gif" border="0" name="submit" alt="Make payment with PayPal">
+        <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>
+	<br><br>
+EOF;
+
+include_once("gcc_footer.php");
+?>

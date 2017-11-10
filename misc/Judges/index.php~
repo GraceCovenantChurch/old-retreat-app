@@ -1,0 +1,67 @@
+<HTML>
+<head>
+  <title>Grace Covenant Church - University City, Philadelphia PA</title>
+  <link rel="stylesheet" type="text/css" href="/style.css" />
+  <link rel="shortcut icon" href="http://uc.gracecovenant.net/images/favicon.ico" type="image/x-icon" />
+  <script language="JavaScript" src="/menu.js"></script>
+</head>
+
+<?php include('../../header.html'); ?>
+<?php include('../../sidebar.html'); ?>
+
+<table id="widemaintable">
+ <tr>
+   <td>
+     <p><b>JUDGES BIBLE STUDIES - SPRING 2012</b></p>
+     <table cellpadding='10' style='border: 1px solid black'>
+       <tr bgcolor='orange'><th>Title</th><th>Passages</th><th>UC Study</th><th>P. Ryun's Notes</th><th>Comments</th></tr>
+<?php
+$studies = array(
+  array(
+   "title" => "The Ephraim Complex",
+   "passages" => array(
+       "Joshua 17:15-18",
+       "Judges 1:27-29",
+       "Judges 7:22 - 8:3",
+       "Judges 12:1-6",
+       "Psalm 78:9-11",
+       "Ephesians 4:17-32"
+     ),
+   "study" => "Judges_S06_Servants.docx",
+   "notes" => "Judges_T06.docx",
+   "comments" => "went over Feb 25"
+  ),
+);
+
+foreach ($studies as $study) {
+  $notesHtml = ($study['notes']) ? "<a href='notes/$study[notes]'>Notes</a>" : " - ";
+  $studyHtml = ($study['study']) ? "<a href='studies/$study[study]'>Study</a>" : " - ";
+  $passagesHtml = "<ul>";
+  foreach ($study['passages'] as $passage) {
+    $passagesHtml .= "<li>$passage</li>";
+  }
+  $passagesHtml .= "</ul>";
+  echo <<<EOF
+  <tr onMouseover="this.bgColor='#ADDFFF'" onMouseout="this.bgColor='#FFFFFF'">
+    <td>$study[title]</td>
+    <td>$passagesHtml</td>
+    <td>$studyHtml</td>
+    <td>$notesHtml</td>
+    <td>$study[comments]</td>
+  </tr>
+EOF;
+}
+
+?>
+
+     </table>
+
+<div style="height: 800px">&nbsp;</div>
+
+   </td>
+ </tr>
+</table>
+<?php include('../../footer.html'); ?>
+
+</HTML>
+

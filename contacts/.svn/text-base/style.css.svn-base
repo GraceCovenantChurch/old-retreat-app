@@ -1,0 +1,5 @@
+.fgcontacts {
+  border-style: solid;
+  border-color: #fea200;
+  border-width: 2px;
+}

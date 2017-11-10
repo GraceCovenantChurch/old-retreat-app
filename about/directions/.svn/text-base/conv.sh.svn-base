@@ -1,0 +1,11 @@
+convert.pl ardmoremap.php
+convert.pl bodekmap.php
+convert.pl drlmap.php
+convert.pl hallofflags.php
+convert.pl harrisonmap.php
+convert.pl loganhall.php
+convert.pl meyersonmap.php
+convert.pl nesbittmap.php
+convert.pl ralstonhouse.php
+convert.pl springtonmap.php
+convert.pl stitelermap.php

@@ -1,0 +1,49 @@
+<HTML>
+<head>
+  <title>Grace Covenant Church - University City, Philadelphia PA</title>
+  <link rel="stylesheet" type="text/css" href="/style.css" />
+  <link rel="shortcut icon" href="http://uc.gracecovenant.net/images/favicon.ico" type="image/x-icon" />
+  <script language="JavaScript" src="/menu.js"></script>
+</head>
+
+<?php include('../../header.html'); ?>
+<?php include('../sidebar.html'); ?>
+
+<?php include('./picFuncs.php'); ?>
+<?php include('../../subbox.php'); ?>
+
+<table id="widemaintable">
+
+<?php 
+  yearLine(2012);
+
+  $col = 0;
+
+
+  $col = newAlbum('GCC College Retreat: Jesus, Our King', 'https://picasaweb.google.com/110329750777182895319/CollegeRetreatJesusOurKing', 'https://lh3.googleusercontent.com/-nWIg_AjkAQ8/TzCDehrJwXE/AAAAAAAABEs/cUo2sTJuHUE/s144-c/CollegeRetreatJesusOurKing.jpg', 'Feb 3-5, 2012', $col);
+
+  $col = newAlbum('Praise Night', 'https://picasaweb.google.com/gcc.multimedia/PraiseNight2012', 'https://lh6.googleusercontent.com/-dKIVJPSx9hY/T3oYoQpHsGE/AAAAAAAAPrs/-LKU8XCf4ns/s144-c/PraiseNight2012.jpg', 'Feb 25, 2012', $col);
+
+  $col = newAlbum('College Activity Night', 'https://picasaweb.google.com/gcc.multimedia/CollegeActivityNight2012', 'https://lh3.googleusercontent.com/-YlrGu438Vf0/T3oiibTsHpE/AAAAAAAAPBQ/pnEu0oPPwYA/s144-c/CollegeActivityNight2012.jpg', 'Mar 2, 2012', $col);
+
+  $col = newAlbum('GCC Easter Sunday', 'https://picasaweb.google.com/gcc.multimedia/GCCEasterSunday2012', 'https://lh3.googleusercontent.com/-IYI2YILiPKo/T4Hw9xKj-8E/AAAAAAAAQ7M/dDNIeU-FaLM/s144-c/GCCEasterSunday2012.jpg', 'Apr 8, 2012', $col);
+  
+  $col = newAlbum('Membership and Pastor Shan and Pastor Dave\'s Testimonies', 'https://picasaweb.google.com/gcc.multimedia/MembershipAndPastorShanPastorDaveSTestimonies', 'https://lh6.googleusercontent.com/-v0whqXFBMgc/T5WwddE0MRE/AAAAAAAARAA/onT0ZWfDTaw/s144-c/MembershipAndPastorShanPastorDaveSTestimonies.jpg', 'Apr 22, 2012', $col);
+  
+  $col = newAlbum('Grad Night 2012', 'https://picasaweb.google.com/gcc.multimedia/GradNight2012', 'https://lh6.googleusercontent.com/-AyB4wgtP98g/T5eVzkBNVDE/AAAAAAAASmo/qb0M_BI3DRA/s144-c/GradNight2012.jpg', 'Apr 24, 2012', $col);
+
+  $col = newAlbum('AMI Revolution: Empowered', 'https://picasaweb.google.com/gcc.multimedia/AMIRevolution2012Empowered', 'https://lh4.googleusercontent.com/-vQyg_Xjx5fM/RogTnqyae4E/AAAAAAAADqs/BtPOiF6y4cw/s144-c/AMIRevolution2007.jpg', 'June 28-July 21, 2012', $col);
+
+  $col = newAlbum('Labor Day Picnic', 'https://picasaweb.google.com/gcc.multimedia/LaborDayPicnic2012', 'https://lh5.googleusercontent.com/-HTQTZoO_zQE/UEUpXNq4NTE/AAAAAAAASmg/1YX8xev0aIE/s144-c/LaborDayPicnic2012.jpg', 'Sept 3, 2012', $col);
+
+  $col = newAlbum('Penn Intro Night 2012', 'https://picasaweb.google.com/gcc.multimedia/PennIntroNight2012', 'https://lh5.googleusercontent.com/-HDqUHXsoITE/UE1g0HS8_9E/AAAAAAAASmc/gU-Svqdp2hk/s144-c/PennIntroNight2012.jpg', 'Sept 9, 2012', $col);
+
+  $col = newAlbum('Drexel Intro Night 2012', 'https://picasaweb.google.com/gcc.multimedia/DrexelIntroNight2012', ', 2012', $col);
+
+  endAlbums($col);
+?>
+
+<?php include('../../footer.html'); ?>
+
+</HTML>
+

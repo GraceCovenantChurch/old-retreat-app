@@ -1,0 +1,42 @@
+<?php
+
+set_include_path ( "phpmailer/PHPMailer" );
+
+require 'class.phpmailer.php';
+
+$mail = new PHPMailer;
+
+$mail->IsSMTP();                                      // Set mailer to use SMTP
+$mail->Host = 'mail.gracecovenant.net';  // Specify main and backup server
+$mail->SMTPAuth = true;                               // Enable SMTP authentication
+$mail->Username = 'retreat_2013@gracecovenant.net';                            // SMTP username
+$mail->Password = 'H@rveyCedars';                           // SMTP password
+$mail->Port       = 587;
+
+$mail->SMTPSecure = 'tls';                            // Enable encryption, 'ssl' also accepted
+
+$mail->From = 'retreat_2013@gracecovenant.net';
+$mail->FromName = 'Retreat 2013';
+//$mail->AddAddress('kevinwsin@gmail.com');  // Add a recipient
+$mail->AddAddress('robynmchan@gmail.com');
+$mail->AddReplyTo('retreat_2013@gracecovenant.net', 'Retreat 2013');
+//$mail->AddCC('cc@example.com');
+//$mail->AddBCC('bcc@example.com');
+
+$mail->WordWrap = 50;                                 // Set word wrap to 50 characters
+//$mail->AddAttachment('/var/tmp/file.tar.gz');         // Add attachments
+//$mail->AddAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
+$mail->IsHTML(true);                                  // Set email format to HTML
+
+$mail->Subject = 'Here is the subject';
+$mail->Body    = 'This is the HTML message body <b>in bold!</b>';
+
+if(!$mail->Send()) {
+   echo 'Message could not be sent.';
+   echo 'Mailer Error: ' . $mail->ErrorInfo;
+   exit;
+}
+
+echo 'Message has been sent';
+
+?>

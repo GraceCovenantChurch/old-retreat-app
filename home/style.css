@@ -1,0 +1,10 @@
+ul {
+    padding-left: 10px;
+    padding-right: -6px;
+    margin-left: -2px;
+}
+li {
+    padding-left: 0px;
+    padding-right: -6px;
+    margin-left: 10px;
+}

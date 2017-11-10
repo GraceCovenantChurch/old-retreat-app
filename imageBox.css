@@ -1,0 +1,30 @@
+.imagebox {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  border: 1px solid #999999;
+  width: 510px;
+  padding: 5px;
+  background-color: #ffffff;
+}
+.imagebox td {border: 0;}
+.eighty {width: 80px;}
+.transOFF {opacity:1; filter: alpha(opacity=100); -moz-opacity: 1; cursor: pointer;}
+.transON {opacity:.40; filter: alpha(opacity=40); -moz-opacity: 0.4; cursor: pointer;}
+
+.captioningON {background-color: black; opacity:.70; filter: alpha(opacity=70); -moz-opacity: 0.7; z-index: 1; cursor: default;}
+.captioningOFF {z-index:-1;}
+
+.captiontextON {background-color: none; z-index:2; cursor: default;}
+
+.captiontextOFF {z-index:-1;}
+
+.captiontextON a {color: #3399ff; text-decoration: none; font-weight: bold;}
+.captiontextON a:hover {text-decoration: underline; background-color: transparent;}
+
+.infrontON {z-index: 2; cursor: default;}
+.infrontOFF {z-index:-1;}
+
+.pointerStyle {cursor: pointer;}
+.defaultStyle {cursor: default;}

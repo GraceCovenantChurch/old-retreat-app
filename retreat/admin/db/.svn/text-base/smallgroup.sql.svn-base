@@ -1,0 +1,40 @@
+/*
+  Kevin Sin
+  Jan 29, 2012
+  SQL Script for setting Small Groups
+  Run: cat smallgroup.sql | mysql -h mysql.gracecovenant.net -u gccweb -p
+*/
+
+use gcc;
+
+update Retreat_Participants set sg='B01' where id in (124,170,208,169,177,154,163);
+update Retreat_Participants set sg='B02' where id in (146,9,209,75,195,168,180);
+update Retreat_Participants set sg='B03' where id in (98,117,211,82,236,172,197);
+update Retreat_Participants set sg='B04' where id in (185,126,80,187,237,205,228);
+update Retreat_Participants set sg='B05' where id in (100,171,145,224,148,238,198);
+update Retreat_Participants set sg='B06' where id in (112,218,157,11,31,201,202);
+update Retreat_Participants set sg='B07' where id in (18,127,162,19,240,129,203);
+update Retreat_Participants set sg='B08' where id in (34,184,174,27,215,196);
+update Retreat_Participants set sg='B09' where id in (47,41,200,43,53,119);
+update Retreat_Participants set sg='B10' where id in (79,62,227,44,60,37);
+update Retreat_Participants set sg='B11' where id in (88,136,229,56,81,59);
+update Retreat_Participants set sg='B12' where id in (101,121,87,57,131,92);
+update Retreat_Participants set sg='B13' where id in (134,178,123,89,144,113);
+update Retreat_Participants set sg='B14' where id in (186,199,155,96,153,147);
+update Retreat_Participants set sg='G01' where id in (29,6,216,230,24,130,26,116);
+update Retreat_Participants set sg='G02' where id in (122,207,30,219,28,222,204,140);
+update Retreat_Participants set sg='G03' where id in (17,133,33,220,36,72,179,150);
+update Retreat_Participants set sg='G04' where id in (52,125,39,233,40,183,76,239);
+update Retreat_Participants set sg='G05' where id in (64,74,54,68,42,190,5,242);
+update Retreat_Participants set sg='G06' where id in (135,212,61,69,45,176,10,109);
+update Retreat_Participants set sg='G07' where id in (139,217,63,70,58,210,12,231);
+update Retreat_Participants set sg='G08' where id in (67,223,99,73,65,206,15,232);
+update Retreat_Participants set sg='G09' where id in (137,226,106,83,93,46,25);
+update Retreat_Participants set sg='G10' where id in (120,51,118,181,94,97,32);
+update Retreat_Participants set sg='G11' where id in (16,128,149,225,104,105,35);
+update Retreat_Participants set sg='G12' where id in (66,152,151,158,110,138,38);
+update Retreat_Participants set sg='G13' where id in (78,221,156,159,111,142,55);
+update Retreat_Participants set sg='G14' where id in (91,241,166,84,143,160,77);
+update Retreat_Participants set sg='G15' where id in (114,71,173,14,167,161,86);
+update Retreat_Participants set sg='G16' where id in (132,213,182,20,175,165,95);
+update Retreat_Participants set sg='G17' where id in (141,214,189,23,115,235,103);

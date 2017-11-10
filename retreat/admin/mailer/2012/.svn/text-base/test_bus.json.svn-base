@@ -1,0 +1,25 @@
+{ 
+  "name": "AMI REVOLUTION NICE EMAIL GCC", 
+  "mysql_command": "select * from Retreat_Participants where id=9;",
+  "log_file": "log.txt",
+  "email": {
+    "subject": "GCC College Retreat 2012: Jesus Our King - BUS PICKUP TIME CHANGE",
+    "body": [ "<div style='border: 1px solid #333333; padding: 5px; width: 905px'>",
+             "<center><img src='http://uc.gracecovenant.net/retreat/images/retreat_banner.jpg'></center>",
+		"<div style='font-family: Verdana, Arial; padding: 5px;'>",
+			"<p>Dear $row[fname],</p>",
+			"<p>Please note the following pickup time changes (pushed back 15 minutes):</p>",
+			"<p><b>--- DEPARTURE ---</b><br>",
+			"<ul>",
+			  "<li>Drexel and Penn - 5:15pm at 34th and Walnut</li>",
+			  "<li>USciences - 5:00pm at Starbucks</li>",
+			"</ul>",
+			"<p><font color='red'>Again, we won't be eating dinner on the way, so make sure you eat dinner beforehand or bring it with you.</font></p>",
+			"<p>If you have any questions, please reply to this email.</p>",
+			"<p>Have a great week!</p>",
+			"<p>In Christ,<br>GCC Retreat Team</p>",
+		"</div>",
+		"</div>"
+    ]
+  }
+}

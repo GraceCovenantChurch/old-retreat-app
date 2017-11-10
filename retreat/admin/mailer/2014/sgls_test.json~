@@ -1,0 +1,52 @@
+{ 
+  "name": "SG EMAIL", 
+  "mysql_command": "select * from Retreat_Participants where sgleader=1;",
+  "log_file": "log.txt",
+  "sg_email": "True",
+  "email": {
+    "subject": "GCC College Retreat 2014: Your Small Group",
+    "body": [ 	"<p>Dear $row[fname],</p>",
+			"<p>Thank you for leading a small group this year!</p>",
+			"<p>Here are your group members*:",
+			  "$sgmembers",
+			"</p>",
+			"<p><i>* This is subject to change.</i></p>",
+			"<p>Please start praying for your small group members that they would have an open heart to receive from Christ.</p>",
+                  "<br>",
+                   "<p>And here are the devotionals you will go over in your small groups:</p>",
+                   "<p><b>--- SATURDAY DEVOTIONAL - John 21:15-19 ---</b><br>",
+                     "<ol>",
+                       "<li>Look back at John 21:1-14. What is the background of Peter’s conversation with Jesus?</li>",
+                       "<li>What is the significance of Jesus asking Peter the same question three times?</li>",
+                       "<li>In verse 17, Peter tells Jesus, \"Lord, you know everything; you know that I love you\". If
+                       Jesus already knows the answer to his own questions, what is the purpose of his inquiry?</li>",
+                       "<li>What is Jesus describing in verse 18? How does intimacy with Christ relate to becoming
+                       more Christ-like?</li>",
+                       "<li>What is the connection between intimacy with Christ and his will for our lives? </li>",
+                       "<li>Do you have questions for God regarding His plan for your life? What are some practical
+                       ways we can draw near to Christ in order to get a better picture for the part we play in his 
+                       sovereign plan?</li>",
+                     "</ol>",
+                   "</p>",
+                   "<br>",
+                    "<p><b>--- SUNDAY DEVOTIONAL - Read Mark 9:1-29 ---</b><br>",
+                      "<ol>",
+                        "<li>Describe the scene in verses 2-8. Put yourself in the disciples’ shoes and share what you
+                        imagine they are feeling.</li>",
+                        "<li>What prompts Peter to express his desire to stay on top of the mountain? What is so significant
+                        about seeing Elijah and Moses?</li>",
+                        "<li>After having an incredible experience on the mountain, the disciples fail to cast out the demon.  having an incredible experience on the mountain, the disciples fail to cast out the demon.
+                        In verse 29, how did Jesus answer when asked why the disciples could not cast out 
+                        the demon?</li>",
+                        "<li>Why does Jesus emphasize the need for prayer in verse 29 when he responds to the 
+                        disciples? How does this relate to what they experienced on the mountain?</li>",
+                        "<li>Share about a time that you experienced true intimacy with God. Next, think about the weeks 
+                        following that experience. How did your intimacy in those weeks compare?</li>",
+                        "<li>Share and pray about how you will foster intimacy with Christ in the upcoming weeks.</li>",
+                      "</ol>",
+                    "</p>",
+			"<p>If you have questions, feel free to reply to this email.</p>",
+			"<p>In Christ,<br>GCC Retreat Team</p>"
+    ]
+  }
+}

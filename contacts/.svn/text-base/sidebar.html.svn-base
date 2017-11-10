@@ -1,0 +1,6 @@
+   <div width="100%" class="small"><div style="position: relative; right: 2; top: -31; height: 0px; z-index: 1; margin-top: 12px"><h3 class="white" align="right">contacts</h3></div>
+     <p class="sidebarlink"><a href="index.php">Staff Contacts</a></p><br>
+     <p class="sidebarlink"><a href="fgcontacts.php">Family Groups</a></p><br>
+   </div>
+  </td>
+  <td class="border2p" style="border-color: #fed201" width="556">

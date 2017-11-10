@@ -1,0 +1,9 @@
+[DEFAULT]
+BASEURL=http://207.106.216.2/exchange/logon.asp
+[InternetShortcut]
+URL=https://207.106.216.2/exchange/
+Modified=A0D8989EAE6DC3018D
+IconIndex=0
+IconFile=D:\mactheme\iPhile\icons\AquaICONS\72px\Others_72\Globe 3.ico
+[MyIE2]
+VisitTimes=1

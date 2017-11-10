@@ -1,0 +1,32 @@
+<HTML>
+<head>
+  <title>Grace Covenant Church - University City, Philadelphia PA</title>
+  <link rel="stylesheet" type="text/css" href="/style.css" />
+  <link rel="shortcut icon" href="http://uc.gracecovenant.net/images/favicon.ico" type="image/x-icon" />
+  <script language="JavaScript" src="/menu.js"></script>
+</head>
+
+<?php include('../../header.html'); ?>
+<?php include('../sidebar.html'); ?>
+
+<?php include('./picFuncs.php'); ?>
+<?php include('../../subbox.php'); ?>
+
+<table id="widemaintable">
+
+<?php 
+  yearLine(2011);
+
+  $col = 0;
+
+    $col = newAlbum('GCC College Retreat: Alive', 'https://picasaweb.google.com/gcc.multimedia2/CollegeRetreat2011Alive#', 'https://lh3.googleusercontent.com/_jrFSVKgHhYc/TVondJvlSsE/AAAAAAAAHjA/p9vVAVex90Y/s144-c/CollegeRetreat2011Alive.jpg', 'Jan 28-30, 2011', $col);
+
+	$col = newAlbum('Pastor Young\'s Birthday', 'https://picasaweb.google.com/gcc.multimedia2/PastorYoungSBirthday02#', 'https://lh5.googleusercontent.com/_jrFSVKgHhYc/TWneJf66aoI/AAAAAAAAHjc/46bZ_ECEvvY/s720/IMG_1932.JPG', 'Feb 20, 2011', $col);
+	
+  endAlbums($col);
+?>
+
+<?php include('../../footer.html'); ?>
+
+</HTML>
+

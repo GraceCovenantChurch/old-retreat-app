@@ -1,0 +1,7 @@
+.S { color: #000000 }
+.F, .Y { color: #9e0118 }
+.P { color: #ff00ff }
+.R { color: #ff0033 }
+.E { color: #3333ff }
+td { font-size: 10px; }
+.medium { font-size: 12px;}

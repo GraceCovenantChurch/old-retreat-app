@@ -1,0 +1,41 @@
+<HTML>
+<head>
+  <title>Grace Covenant Church - University City, Philadelphia PA</title>
+  <link rel="stylesheet" type="text/css" href="/style.css" />
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+  <script language="JavaScript" src="/menu.js"></script>
+<link rel="shortcut icon" href="http://uc.gracecovenant.net/images/favicon.ico" type="image/x-icon" /></head>
+
+<?php include('../../header.html'); ?>
+<?php include('.././sidebar.html'); ?>
+
+<table id="widemaintable">
+ <tr>
+  <td>
+                      <strong></strong> 
+                        <div align="left"> </div>
+                      <strong><em><br>
+                        PRAYER FOCUS<br>
+                        <br>
+                        </em></strong>
+                      <p align="left"><strong>A New Ministry Year - September 10, 2006</strong></p>
+<p>
+The beginning of a ministry year should be an exciting time for any ministry, and GCC is no exception.  A number of campuses in the area are preparing to take on the challenges and welcome the experiences of a new year, and GCC is likewise taking steps to exhibit God’s love with passion, energy, and focus.  It is easy to allow past successes to dictate current practices – pray that GCC does not fall into this trap, and that the church would remain prayerful, grounded in the Word, and Spirit-led in its 11th year.
+<p>
+<b>Prayer Requests:</b>
+<ul>
+<li><b>Campus Intro Nights:</b>  As the event that marks many people’s first experience with GCC, a Campus Intro Night should be welcoming, informative, fun, and Christ-centered.  Pray for the planners of the event as well as those who will be attending.</li>
+<li><b>Outreach:</b>  Pray that the Bible study groups truly exhibit the notion of ‘family’ in every sense of the word.  Pray that the church continues to have a heart for those who haven’t yet heard the gospel.</li>
+<li><b>Unity among the three sites:</b> Pray that each site will remain mindful of the other two throughout the year.  Also pray for any logistical issues to be overcome in the name of fellowship and ministry.</li>
+</ul>
+<b>World Event</b><br>
+<b>Remembering 9/11:</b><br>
+It has been five years since commercial airliners were crashed into the World Trade Center and Pentagon.  Nearly 3,000 people died from the attacks. Pray for the families of the victims as well as the soldiers currently fighting in the Middle East as a result of 9/11.
+                        <p>Click 
+                          here to see <a href="index.php">Prayer Focus archives</a></p>
+
+  </td>
+ </tr>
+</table><?php include('../../footer.html'); ?>
+</HTML>
+

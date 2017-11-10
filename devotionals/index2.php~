@@ -1,0 +1,96 @@
+<HTML>
+<head>
+  <title>Grace Covenant Church - University City, Philadelphia PA</title>
+  <link rel="stylesheet" type="text/css" href="/style.css" />
+  <link rel="shortcut icon" href="http://uc.gracecovenant.net/images/favicon.ico" type="image/x-icon" />
+  <script language="JavaScript" src="/menu.js"></script>
+
+  <!-- Stylesheet for this -->
+  <style type="text/css">
+#devotionals 
+{
+border-collapse:collapse;  
+}
+
+#devotionals td, #devotionals th 
+{
+font-size:.8em;
+border:1px solid #98bf21;
+padding:3px 7px 2px 7px;
+}
+
+#devotionals th 
+{
+font-weight: bold;
+padding: 3px;
+background-color:#A7C942;
+color:#ffffff;
+}
+
+td .selected
+{
+background-color: yellow;
+}
+
+#devotionals #date
+{
+width: 60px;
+}
+  </style>
+</head>
+
+<?php include('../header.html'); ?>
+<?php include('../sidebar.html'); ?>
+
+<table id="widemaintable">
+  <tr>
+    <td valign="top">
+ <h4>Devotionals</h4><br><br>
+
+    <table id="devotionals">
+      <tr><th id="date">Date</th> <th>Bible Reading</th> <th>Category</th> <th>Devotional</th> <th>Featuring</th></tr>
+      <tr>
+       <td class="selected">Dec 5</td>
+       <td class="selected">Proverbs 1, Judges 1</td>
+       <td rowspan="2">Spirituality: True Hero</td>
+       <td rowspan="2"><a href="docs/01_Spirituality.docx">The Gospel of "Role-Modeling" According to Barkley & Tebow</a></td>
+       <td rowspan="2">Charles Barkley & Tim Tebow</td>
+      </tr>
+
+      <tr>
+       <td>Dec 6</td>
+       <td>Proverbs 2, Judges 2</td>
+      </tr>
+
+      <tr>
+       <td>Dec 7</td>
+       <td>Proverbs 3, Judges 3</td>
+       <td rowspan="2">Evangelism: Talking to a Cusser</td>
+       <td rowspan="2">How You can Turn a Perfect Stranger into a Friend in Minutes!</td>
+       <td rowspan="2">&nbsp;</td>
+      </tr>
+
+      <tr>
+       <td>Dec 8</td>
+       <td>Proverbs 4, Judges 4</td>
+      </tr>
+      
+    </table>
+
+<p>* More to come!</p>
+
+<div style="height: 380px">
+&nbsp;
+</div>
+
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
+<?php include('../footer.html'); ?>
+
+</HTML>
+
+

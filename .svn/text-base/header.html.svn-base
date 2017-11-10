@@ -1,0 +1,12 @@
+<body onLoad="onLoad();">
+<table align="center" cellspacing="15" cellpadding="0" bgcolor="#FFFFFF">
+ <tr>
+  <td><img src="/images/greenbox.gif" border="0"></td>
+  <td>
+    <div id="container"><img src="/images/goldbox.gif" border="0" usemap="#Map">
+      <div id="imagebg">
+      </div>
+    </div>
+  </td>
+ </tr><tr>
+  <td valign="top" class="border2p" style="border-color: #c2d2d2" width="140px"><img src="/images/bluebox.gif"><br>

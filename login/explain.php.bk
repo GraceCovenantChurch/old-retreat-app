@@ -1,0 +1,101 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Middle</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+</head>
+</head><style>
+<!--
+BODY{
+scrollbar-face-color:#DB9864;
+scrollbar-arrow-color:#DB9864;
+scrollbar-track-color:#DB9864;
+scrollbar-shadow-color:#BF875B;
+scrollbar-highlight-color:#BF875B;
+scrollbar-3dlight-color:'';
+scrollbar-darkshadow-Color:'';
+}
+-->
+</style>
+
+<body background="images/brown.jpg" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="770" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="232" valign="top"><? require ("../php/includes/login.inc") ?>
+</td>
+    <td valign="top">
+<table width="538" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td height="40" background="images/top.jpg">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td background="images/middle.jpg"><table width="538" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td width="531" colspan="3">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td colspan="3"><table width="538" border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td width="40">&nbsp;</td>
+                      <td> <p> 
+                        <table border=0 bordercolor=#ffd200 cellpadding=2 cellspacing=0 
+
+      width="100%">
+                          <tbody>
+                            <tr bordercolor=#ffd200 valign="top"> 
+                              <td colspan=3 height=0><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Welcome 
+                                to Version 1.2 of the GCC Web Database System.</strong></font></td>
+                            </tr>
+                            <tr bordercolor=#ffffff valign=top> 
+                              <td height=9 colspan="3"><p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><br>
+                                  By logging in, you'll have the ability to search 
+                                  the online GCC directory, sign up for events, 
+                                  and share resources with your family group*. 
+                                  <br>
+                                  <br>
+                                  If you are a ministry or family group leader/servant, 
+                                  you'll also have various tools at your disposal 
+                                  to help you communicate and serve your group*.</font></p>
+                                <p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">In 
+                                  version 1.2, only the online directory and events 
+                                  signup is enabled. Family group and ministry 
+                                  group features will be enabled soon. :)</font></p>
+                                <p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">In 
+                                  the future we will work to integrate this seemlessly 
+                                  into the main website. Please excuse the mess 
+                                  while we work hard to refine the website.</font></p>
+                                <p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong> 
+                                  <font color="#FF0000"> Because of security and 
+                                  privacy reasons, registration is required to 
+                                  access this portion of our website.</font></strong></font></p>
+                                <p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">God 
+                                  bless!</font></p>
+                                <font size="1" face="Verdana, Arial, Helvetica, sans-serif"> 
+                                <p><strong>*these features and more, comming soon*</strong></p>
+                                </font></td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <p></p></td>
+                      <td width="40">&nbsp;</td>
+                    </tr>
+                  </table></td>
+              </tr>
+              <tr> 
+                <td colspan="3">&nbsp;</td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr> 
+          <td background="images/middle.jpg">&nbsp; </td>
+        </tr>
+        <tr> 
+          <td height="30" background="images/bottom.jpg">&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

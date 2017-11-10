@@ -1,0 +1,157 @@
+body,td,th {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+p {
+    margin-top: 6px;
+    margin-left: 6px;
+    line-height: 135%;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    background-color: #fdf017;
+}
+a.fancybox-close {
+   background-color: none;
+}
+a.fancybox-close:hover {
+   background-color: transparent;
+}
+li,h4,h3,h2,h1 {
+    margin-top: 2px;
+    margin-bottom: 0px;
+    margin-left: 2px;
+    margin-right: 6px;
+}
+li {
+    margin-top: 12px;
+    margin-right: 2px;
+}
+h3 {
+    font-size: 15px;
+}
+h4,.menuitem {
+    font-size: 13px;
+}
+.email {
+    color: blue;
+}
+.vids {
+    font-size: 13px;
+    padding-left: 15px;
+    line-height: 15pt;
+    padding-bottom: 10px;
+}
+.vids2 {
+    font-size: 13px;
+    line-height: 15pt;
+    padding-bottom: 10px;
+}
+.missions {
+    color: red;
+    font-weight: bold;
+}
+.menuitem {
+    font-weight: bold;
+    cursor: pointer;
+}
+.submenu { 
+    position: absolute;
+    bottom: -21px;
+    height: 21px; width: 100%;
+    background-color: #fea200;
+    display: none;
+}
+.submenug {
+    position: absolute;
+    bottom: -21px;
+    height: 0px; width: 0px;
+    background-color: #fea200;
+    display: none;
+}
+.submenuitem,.link {
+    cursor: pointer;
+}
+table.subbox2 { 
+    border-style: solid;
+    border-width: 2px;
+    border-color: #fea200;
+    width: 550px;
+}
+th { 
+    font-weight: normal;
+}
+.small {
+    font-size: 12px;
+}
+.border2p {
+    border-style: solid;
+    border-width: 2px;
+    vertical-align: top;
+}
+.white {
+    color: #ffffff
+}
+.orangesq {
+    color: #fea000;
+    letter-spacing: -1pt;
+}
+.sidebar {
+    color: #c2d2d2; /*   color: #a2afaf; for darker */
+    margin-top:12px;
+}
+.sidebarlink { 
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#indextopright {
+   font-size: 20px;
+   text-align: right;
+}
+#container {
+   position: relative;
+   z-index: 0;
+   width: 100%; height: 143px;
+}
+#imagebg {
+   position: absolute;              /* absolute positioning        */
+   background-color: #fed201;
+   background-image: url('/images/widemenubg/rand.php');
+   z-index: 1;
+   left: 140px; top: 0px;
+   width: 662px; height: 143px;
+}
+#translucentbkg {
+   position: absolute;              /* absolute positioning        */
+   width: 662px; height: 25px;      /* to match DIVs size          */
+   bottom: 0px;
+   background-color: #fed201;       /* the background              */
+   filter:alpha(opacity=70);
+   -moz-opacity:0.7;
+   opacity: 0.7;
+   z-index: 2;
+}
+#opaquetext {
+   position: absolute;              /* absolute positioning        */
+   bottom: 0px;
+   width: 662px; height: 25px;      /* to match DIVs size          */
+   background-color: transparent;   /* transparent background      */
+   z-index: 3;                      /* place it over the other DIV */
+}
+#widemaintable {
+   width: 784px;
+   margin: 8px;
+}
+
+#missionstatement {
+   position: relative;
+   top: -32px;
+}
+
+#amifooter {
+   position: relative;
+   top: -25px;
+}

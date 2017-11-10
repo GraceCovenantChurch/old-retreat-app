@@ -1,0 +1,55 @@
+<HTML>
+<head>
+  <title>Grace Covenant Church - University City, Philadelphia PA</title>
+  <link rel="stylesheet" type="text/css" href="/style.css" />
+  <link rel="shortcut icon" href="http://uc.gracecovenant.net/images/favicon.ico" type="image/x-icon" />
+  <script language="JavaScript" src="/menu.js"></script>
+</head>
+
+<?php include('../../header.html'); ?>
+<?php include('../sidebar.html'); ?>
+<?php include('./vidFuncs.php'); ?>
+
+<table id="widemaintable">
+
+<?php yearLine(2011); ?>
+
+<br>
+
+<p class="vids2">
+  <?php addLink2('http://www.youtube.com/watch?v=SruCPAaCL4k', 'AMI Revolution 2011 Promo'); ?>
+</p>
+
+<h4><i>Praise Night 2011</i></h4>
+	<p class="vids">
+		<?php addLink2('http://www.youtube.com/watch?v=Qoi2eT1N4SU', 'Emcee Intro Video'); ?><br>
+		<?php addLink2('http://www.youtube.com/watch?v=TZ69AidAAHU', 'Life is a Highway (Shrek and Twitter)'); ?><br>
+		<?php addLink2('http://www.youtube.com/watch?v=oW0tXpLIGjE', 'End of the Road (Fearless and Word)'); ?><br>
+		<?php addLink2('http://www.youtube.com/watch?v=k4h2z6niI24', 'He Lives (Temple)'); ?><br>
+		<?php addLink2('http://www.youtube.com/watch?v=zntFgn1J90U', 'Grace Street (300 and Impressed)'); ?><br>
+		<?php addLink2('http://www.youtube.com/watch?v=uUCZlAt3Avk', 'Unconditional (Superglue and USA)'); ?><br>
+		<?php addLink2('http://www.youtube.com/watch?v=EXpSEAbXq14', 'Testify to Love (Overflow)'); ?><br>
+		<?php addLink2('http://www.youtube.com/watch?v=qAenflSyIRg', 'One Question (Mainline)'); ?><br>
+		<?php addLink2('http://www.youtube.com/watch?v=zuoPq80EJCs', 'Balloons (B1 and Expendables)'); ?><br>
+		<?php addLink2('http://www.youtube.com/watch?v=Wu6AudZnu3k', 'Set Me Free (Call of Duty and Glee)'); ?><br>
+	</p>
+
+
+<h4><i>GCC College Retreat 2011: Alive</i></h4>
+	<p class="vids">
+		<?php addLink2('http://www.youtube.com/watch?v=9PjxDY8a-Eo', 'Promo Video'); ?><br>
+	</p>
+
+	
+	<br><br>
+
+
+    </td>
+  </tr>
+
+</table>
+
+<?php include('../../footer.html'); ?>
+
+</HTML>
+

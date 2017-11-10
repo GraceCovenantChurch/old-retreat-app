@@ -1,0 +1,43 @@
+<?php
+
+function sg_to_name($sg) {
+$SG_NAMES = array(
+'B01' => 'Oak',
+'B02' => 'Poplar',
+'B03' => 'Maple',
+'B04' => 'Cedar',
+'B05' => 'Pine',
+'B06' => 'Juniper',
+'B07' => 'Palm',
+'B08' => 'Cypress',
+'B09' => 'Sequoia',
+'B10' => 'Chestnut',
+'B11' => 'Hawthorne',
+'B12' => 'Sycamore',
+'B13' => 'Redwood',
+'B14' => 'Walnut',
+'B15' => 'Elm',
+'G01' => 'Rose',
+'G02' => 'Magnolia',
+'G03' => 'Peony',
+'G04' => 'Daffodil',
+'G05' => 'Dahlia',
+'G06' => 'Tulip',
+'G07' => 'Daisy',
+'G08' => 'Violet',
+'G09' => 'Marigold',
+'G10' => 'Orchid',
+'G11' => 'Freesia',
+'G12' => 'Gardenia',
+'G13' => 'Lavender',
+'G14' => 'Lilac',
+'G15' => 'Sunflower',
+'G16' => 'Poppy',
+'G17' => 'Iris'
+);
+
+  $name = $SG_NAMES[$sg];
+  $name || "";
+}
+
+?>
