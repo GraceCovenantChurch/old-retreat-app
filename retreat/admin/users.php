@@ -31,7 +31,7 @@ if ($_POST['submit']) {
     echo "Error in insert: " .mysql_error()."\n";
   }
   $mail_hdrs = <<<EOF
-From: GCC College Retreat 2017 Registration <retreat2017@gracecovenant.net>
+From: GCC College Retreat 2018 Registration <retreat2018@gracecovenant.net>
 MIME-Version: 1.0
 Content-type: text/html; charset=iso-8859-1
 
