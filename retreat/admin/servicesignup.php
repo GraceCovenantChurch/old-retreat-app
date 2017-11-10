@@ -2,7 +2,8 @@
 $title = "Sign Up";
 include_once("../db_fields.php"); // defines $fields
 include_once("db_verify.php");
-include_once("../prices_inc.php")
+include_once("../prices_inc.php");
+$price = prices_get_cost_and_expl($explanation, $expl_ascii, $_POST['school']);
 
 $js .= <<<EOF1
 description = new Array(
