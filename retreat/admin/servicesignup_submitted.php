@@ -54,9 +54,10 @@ include_once("../db_connect.php");
     }
   }
 
-
-    if (!$err) {
-      echo "<center>You have successfully registered. If you applied for financial aid, you will be contacted shortly. If you haven't yet, please hand the cash to the person that is managing the retreat registration booth. <br><br>  <a href='servicesignup.php'>Back to signup sheet</a></center>\n";
+    if ($deposit == 1) {
+      echo "You applied for financial aide! Please click here to e-mail the retreat coordinators for financail aid discussion!";
+    } else if (!$err) {
+      echo "<center>You have successfully registered. If you haven't yet, please hand the cash to the person that is managing the retreat registration booth. <br><br>  <a href='servicesignup.php'>Back to signup sheet</a></center>\n";
     }
 
 include_once("../footer.php");
