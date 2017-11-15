@@ -16,7 +16,7 @@ $title = "Sign Up - Submitted";
 include_once("gcc_header.php");
 include_once("db_fields.php");
 include_once("db_connect.php");
- 
+
   // prepare INSERT INTO Retreat_Participants query
   $field_names = array();
   $field_values = array();
@@ -47,7 +47,7 @@ include_once("db_connect.php");
 
   array_push($field_names, "price");
   array_push($field_values, $price);
-  
+
   $email = escape_string($_POST['email']);
 
   $ins_qry = "INSERT INTO Retreat_Participants(`" .join("`,`",$field_names). "`) ";
@@ -77,7 +77,7 @@ include_once("db_connect.php");
       if ($res) {
         list($id) = mysql_fetch_array($res);
       }
-  
+
       $mail_subj = "Registration for GCC College Retreat 2018";
       $name = $_POST['fname'] .' '. $_POST['lname'];
       $headers = <<<EOF
@@ -107,7 +107,7 @@ EOF;
 Email address: $email<br>
 Password: $password
 EOF;
-      
+
       $mail_body = <<<EOF
 <HTML>
  <head><title>$subject</title></head>
@@ -133,7 +133,7 @@ EOF;
      } else {
        $res = mail($email, $mail_subj, $mail_body, $headers);
       if (!$res) { echo "<!-- email failed: $email\n$mail_subj\n\n$mail_body -->\n"; }
-     }      
+     }
       // END EMAIL
 
       // show them how much it will cost and how to pay
@@ -161,10 +161,10 @@ EOF;
         <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
         </form>
 
-      
+
 EOF;
 
-    }   
+    }
 ?>
 <div style="height: 350px">&nbsp;</div>
 <?php
