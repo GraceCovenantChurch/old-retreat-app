@@ -48,17 +48,17 @@ include_once("../db_connect.php");
   if (!$result) {
     $err = mysql_error();
     if (strncmp($err, "Duplicate entry ", strlen("Duplicate entry "))==0) {
-      echo "<p>Someone has already registered for GCC College Retreat using this email address ($email).  If you need to change any of your information, please contact <font color='blue'>retreatstaff2018@gracecovenant.net</font></p><p><a href='servicesignup.php'>Back to Signup page</a></p>";
+      echo "<p>Someone has already registered for GCC College Retreat using this email address ($email).  If you need to change any of your information, please contact <font color='blue'>retreatstaff@gracecovenant.net</font></p><p><a href='servicesignup.php'>Back to Signup page</a></p>";
     } else {
       die("Error adding your info to the database: $err" );
     }
   }
 
     if ($deposit == 1) {
-      echo "<center>You have successfully registered. You will receive an email shortly on how to apply for financial aid. <br><br>  <a href='servicesignup.php'>Back to signup sheet</a></center>\n";
+      echo "<center>You applied for financial aide! Please click here to e-mail the retreat coordinators for financial aid discussion!</center><br><br><a href='servicesignup.php'>Back to signup sheet</a></center>\n";
       $mail_subj = "GCC College Retreat 2018 Financial Aid";
       $headers = <<<EOF
-From: GCC College Retreat 2018 <retreatstaff2018@gracecovenant.net>
+From: GCC College Retreat 2018 <retreatstaff@gracecovenant.net>
 MIME-Version: 1.0
 Content-type: text/html; charset=iso-8859-1
 
