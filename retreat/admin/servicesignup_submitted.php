@@ -55,7 +55,7 @@ include_once("../db_connect.php");
   }
 
     if ($deposit == 1) {
-      echo "<center>You applied for financial aide! Please click here to e-mail the retreat coordinators for financial aid discussion!</center><br><br><a href='servicesignup.php'>Back to signup sheet</a></center>\n";
+      echo "<center>You applied for financial aide! You will receive an e-mail shortly. <strong>Please reply to the e-mail to contact the retreat coordinators for financial aid!</strong></center><br><br><a href='servicesignup.php'>Back to signup sheet</a></center>\n";
       $mail_subj = "GCC College Retreat 2018 Financial Aid";
       $headers = <<<EOF
 From: GCC College Retreat 2018 <retreatstaff@gracecovenant.net>
