@@ -139,7 +139,6 @@ EOF;
       // show them how much it will cost and how to pay
       echo "<p></p>\n";
       echo $explanation;
-      echo "\n\n\n$id";
 
         $email = $_POST['email'];
         echo <<<EOF
