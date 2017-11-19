@@ -42,7 +42,7 @@ include_once("../header.php");
 ?>
 <form method="post" action="servicesignup_submitted.php" name="retreatForm" onsubmit="return verifyForm();">
 <center style="font-size:18px">Sign up for GCC College Retreat 2018!</center>
-<center style="font-size:12px"> Early bird (12/18) $90; Regular (12/19-1/15) $105; Late price $120</center>
+<center style="font-size:12px"> Early bird (11/20-12/24) - $95 <br/> Regular (12/25-1/13) - $110 <br/> Late price (1/14-1/21) - $125</center>
 <p>
 <table width=80% border=0 bgcolor="#2b2b2b" cellspacing=1 cellpadding=4 align="center">
 <?php
