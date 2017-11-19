@@ -44,7 +44,7 @@ include_once("../db_connect.php");
 		$ins_qry .= "VALUES(" .join(",",$field_values). ");";
 	    $result = mysql_query($ins_qry);
 
-  $email .= ",retreatstaff@gracecovenant.net";
+  // $email .= ",retreatstaff@gracecovenant.net";
 
   $err = false;
   if (!$result) {
@@ -70,7 +70,7 @@ $mail_body = <<<EOF
 <HTML>
   <head><title>$subject</title></head>
   <body>
-    <p>You have applied for financial aid! Please reply to this e-mail to start discussing financial aid possibilities!</p>
+    <p>Thank you so much for signing up for GCC's College Retreat for 2018! This e-mail is to help you email retreat staff about your financial aid need. <strong>Please reply to this email so that you can start discussing financial aid needs!</strong></p>
   </body>
 </HTML>
 EOF;
