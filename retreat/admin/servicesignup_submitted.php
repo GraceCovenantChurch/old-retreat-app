@@ -44,7 +44,7 @@ include_once("../db_connect.php");
 		$ins_qry .= "VALUES(" .join(",",$field_values). ");";
 	    $result = mysql_query($ins_qry);
 
-  // $email .= ",retreatstaff@gracecovenant.net";
+  $email .= ",retreatstaff@gracecovenant.net";
 
   $err = false;
   if (!$result) {
