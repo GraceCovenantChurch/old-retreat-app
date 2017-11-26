@@ -5,7 +5,7 @@ echo_tabs();
 ?>
 
 <ul>
-  <li><b>Date:</b> Fri, Jan 27th - Sun, Jan 29th</li>
+  <li><b>Date:</b> Fri, Jan 26th - Sun, Jan 28th</li>
   <li><b>Friday Pickup:</b>
     <ul>
     <li>Mainline:
