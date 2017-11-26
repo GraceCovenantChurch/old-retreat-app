@@ -81,7 +81,7 @@ $field_num = 0;
   </td>
 </tr>
   <tr bgcolor='#FFFFFF'><td width='150' class='small'>Payment Amount</td><td class='small'>
-<input type="radio" name="deposit" value=105 checked="true" required> $<?php echo(prices_get_cost_and_expl($explanation, $expl_ascii, $_POST['school'])); ?> <input type="radio" name ="deposit" value=1> Financial Aid Required
+<input type="radio" name="deposit" value=<?php echo(prices_get_cost_and_expl($explanation, $expl_ascii, $_POST['school'])); ?> checked="true" required> $<?php echo(prices_get_cost_and_expl($explanation, $expl_ascii, $_POST['school'])); ?> <input type="radio" name ="deposit" value=1> Financial Aid Required
 </td></tr>
  <tr bgcolor="#FFFFFF">
   <td colspan="2" align="center"><input name="submit" type="submit" value="Submit"></td>
