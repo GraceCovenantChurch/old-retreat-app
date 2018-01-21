@@ -110,7 +110,7 @@ if ($deposit < $price) {
 //      $depositStr = "";
 //    }
 
-echo "Please $depositStr <a href='https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=paypal%40gracecovenant%2enet&item_name=GCC%20College%20Retreat%202117&amount=$balance%2e00&no_shipping=0&custom=$email_esc&invoice=a2018_$id&return=http%3a%2f%2fuc%2egracecovenant%2enet%2fretreat%2fpayment_success%2ephp&cancel_return=http%3a%2f%2fuc%2egracecovenant%2enet%2fretreat%2fpayment_failure%2ephp&no_note=1&currency_code=USD&lc=US&bn=PP%2dBuyNowBF&charset=UTF%2d8'>pay \$$balance by PayPal</a> as soon as possible.\n";
+echo "Please $depositStr <a href='https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=paypal%40gracecovenant%2enet&item_name=GCC%20College%20Retreat%202018&amount=$balance%2e00&no_shipping=0&custom=$email_esc&invoice=a2018_$id&return=http%3a%2f%2fuc%2egracecovenant%2enet%2fretreat%2fpayment_success%2ephp&cancel_return=http%3a%2f%2fuc%2egracecovenant%2enet%2fretreat%2fpayment_failure%2ephp&no_note=1&currency_code=USD&lc=US&bn=PP%2dBuyNowBF&charset=UTF%2d8'>pay \$$balance by PayPal</a> as soon as possible.\n";
 }
 ?>
 <br>
